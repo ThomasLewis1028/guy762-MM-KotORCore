@@ -78,6 +78,10 @@
 					 <value>0.01</value>
 				</li>
 				<li>
+					 <key>guy762_BeamDamage_energy</key>
+					 <value>0.01</value>
+				</li>
+				<li>
 					 <key>guy762_ExplosiveDamage_energy</key>
 					 <value>0.1</value>
 				</li>
@@ -85,18 +89,18 @@
 				
 				
 				
-				<!-- <li> -->
-					 <!-- <key>guy762_RangedDamage_electrical</key> -->
-					 <!-- <value>0.01</value> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					 <!-- <key>guy762_MeleeDamage_electrical</key> -->
-					 <!-- <value>0.01</value> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					 <!-- <key>guy762_BeamDamage_electrical</key> -->
-					 <!-- <value>0.01</value> -->
-				<!-- </li> -->
+				<li>
+					 <key>guy762_RangedDamage_electrical</key>
+					 <value>0.01</value>
+				</li>
+				<li>
+					 <key>guy762_MeleeDamage_electrical</key>
+					 <value>0.01</value>
+				</li>
+				<li>
+					 <key>guy762_BeamDamage_electrical</key>
+					 <value>0.01</value>
+				</li>
 				
 				
 				
@@ -113,10 +117,10 @@
 					 <key>guy762_GrenadeDamage_sonic</key>
 					 <value>0.01</value>
 				</li>
-				<!-- <li> -->
-					 <!-- <key>Thump</key> -->
-					 <!-- <value>0.01</value> -->
-				<!-- </li> -->
+				<li>
+					 <key>Thump</key>
+					 <value>0.01</value>
+				</li>
 				
 				
 				<li>

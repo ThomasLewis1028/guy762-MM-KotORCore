@@ -24,4 +24,40 @@
 		<li IfModActive="guy762.NA.MM.SWVehicles">1.5/AdditionalMods/_VehiclesBase</li>
 		<li IfModActive="guy762.MM.KotORVehicles">1.5/AdditionalMods/_VehiclesBase</li>
 	</v1.5>
+	
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="erdelf.HumanoidAlienRaces">1.6/AdditionalMods/HAR</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.6/AdditionalMods/VEF</li>
+		
+		<li IfModNotActive="jecrell.jecstools">1.6/AdditionalMods/_BorrowedFromJecsTools</li>
+		
+		<li IfModActive="Killathon.ArtificialBeings">1.6/AdditionalMods/MHC</li>
+		<li IfModActive="Killathon.ArtificialBeings.SynCore">1.6/AdditionalMods/ATC</li>
+		
+		<li IfModActive="DimonSever000.FactionLanguages">1.6/AdditionalMods/RimLanguages</li>
+		
+		<li IfModActive="sindre0830.rimnauts2">1.6/AdditionalMods/RimNauts2</li>
+		
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.6/AdditionalMods/Ideology</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/AdditionalMods/Biotech</li>
+		
+		<li IfModActive="Dubwise.DubsBadHygiene">1.6/AdditionalMods/DBH</li>
+		<li IfModNotActive="Dubwise.DubsBadHygiene">1.6/AdditionalMods/NO_DBH</li>
+		
+		
+		
+		
+		
+		
+		<li IfModActive="guy762.NA.MM.SWVehicles">1.6/AdditionalMods/_VehiclesBase</li>
+		<li IfModActive="guy762.MM.KotORVehicles">1.6/AdditionalMods/_VehiclesBase</li>
+		
+		<li IfModActive="EBSG.Framework">1.6/AdditionalMods/EBSG</li>
+		
+		<li IfModActive="kaitorisenkou.ModularWeapons">1.6/AdditionalMods/ModularWeapons</li>
+		
+		<li IfModActive="guy762.KotORDroids">1.6/AdditionalMods/_DroidsBase</li>
+	</v1.6>
 </loadFolders>

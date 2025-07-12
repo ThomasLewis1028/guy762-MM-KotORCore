@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+
+	
+	
+	<SoundDef>
+		<defName>kotorsound_ebonhawk</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/mgs_ebon_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_sithfighter</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/mgs_sith_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_starvipergun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>kotorshipweapons/starviper</clipFolderPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_TIEgun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>kotorshipweapons/TIEgun</clipFolderPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_TIEgun_short</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/TIEgun/GUN_TIE_FIGHTER_1</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_xwinggun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_xwing_blaster_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_ywinggun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_ywing_blaster_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_milleniumfalcongun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/GUN_mileniumfalcon1</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_ATSTgun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorblasters/wpn_stap_blaster_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_TankAntiInfantryGun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_cmbtSpdr_blaster_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_TankAntiVehicleGun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_IFT_blaster_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_TankMissileLauncher</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_IFT_missile_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	<SoundDef>
+		<defName>kotorsound_T2BGun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/GUN_TANK_CANNON</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	<SoundDef>
+		<defName>kotorsound_TIECrawlerGun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/GUN_TIE_CRAWLER</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_nantexgun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_scarab_turre</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_vulturedroidgun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_drdFghtr_blaster_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_zoomergun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/Zoomer_Laser</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_havocgun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_hav_main_gu</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	<SoundDef>
+		<defName>kotorsound_havocturret</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_hav_turret_</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_mantisiongun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_probe_missi</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_ioncannon</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>kotorshipweapons/IonCannon</clipFolderPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_turbolaser</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>kotorshipweapons/turbolaser</clipFolderPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_firespraygun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/firespraygun_cut</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	
+	
+	<SoundDef>
+		<defName>kotorsound_AATgun</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/tanklasr</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>0.8</min>				
+					<max>1.2</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	
+	
+	<SoundDef>
+		<defName>kotorsound_EaWturret</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/GUN_TURRET_1</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>0.8</min>				
+					<max>1.2</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<SoundDef>
+		<defName>kotorsound_SFmissile</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_gunship_rocket_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>55</min>        
+				<max>55</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_SFtorp</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_hailfire_missile_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>55</min>        
+				<max>55</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_protorp</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/GUN_PROTON_1</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>55</min>        
+				<max>55</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_protorp2</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/Proton_Torp.L</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	<SoundDef>
+		<defName>kotorsound_bombdrop</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_tie_bombLauncher_fire</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>45</min>        
+				<max>45</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>kotorsound_bombletdrop</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/wpn_havoc_bomb.</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>1</min>				
+					<max>1</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	
+	
+	
+	
+	
+	<SoundDef>
+		<defName>kotorsound_bombletexplode</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kotorshipweapons/exp_bomblet</clipPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>35</min>        
+				<max>35</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>0.8</min>				
+					<max>1.2</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--SoundDef>
+		<defName>kotorsound_flakexplosion_mix</defName>	
+		<context>MapOnly</context>
+		<eventNames />	
+		<maxSimultaneous>1</maxSimultaneous>	
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>kotormisc/flakexplosion</clipFolderPath>
+					</li>
+				</grains>	
+				<volumeRange>
+				<min>42.5</min>        
+				<max>42.5</max>
+				</volumeRange>  		
+				<pitchRange>
+					<min>0.8</min>				
+					<max>1.2</max>
+				</pitchRange>			
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef-->
+	
+
+</Defs>

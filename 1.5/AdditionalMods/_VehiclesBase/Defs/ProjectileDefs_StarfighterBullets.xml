@@ -34,7 +34,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
-			<damageAmountBase>25</damageAmountBase>
+			<damageAmountBase>50</damageAmountBase>
 			<armorPenetrationBase>0.50</armorPenetrationBase>
 			<speed>200</speed>
 			<!-- <explosionRadius>0.25</explosionRadius> -->
@@ -53,7 +53,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
-			<damageAmountBase>25</damageAmountBase>
+			<damageAmountBase>50</damageAmountBase>
 			<armorPenetrationBase>0.50</armorPenetrationBase>
 			<speed>200</speed>
 			<!-- <explosionRadius>0.25</explosionRadius> -->
@@ -78,7 +78,28 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
-			<damageAmountBase>35</damageAmountBase>
+			<damageAmountBase>65</damageAmountBase>
+			<armorPenetrationBase>0.625</armorPenetrationBase>
+			<speed>200</speed>
+			<!-- <explosionRadius>1</explosionRadius> -->
+		</projectile>
+		<!-- <thingClass>Projectile_Explosive</thingClass> -->
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="guy762_AVandAAprojectileBASE">
+		<defName>SWVehicleBullet_SFheavygreen</defName>
+		<label>heavy laser bolt</label>
+		<graphicData>
+			<texPath>Weapons/Projectiles/AntiVehicle_green</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>4</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
+			<damageAmountBase>65</damageAmountBase>
 			<armorPenetrationBase>0.625</armorPenetrationBase>
 			<speed>200</speed>
 			<!-- <explosionRadius>1</explosionRadius> -->
@@ -101,7 +122,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
-			<damageAmountBase>50</damageAmountBase>
+			<damageAmountBase>100</damageAmountBase>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
 			<speed>200</speed>
 			<!-- <explosionRadius>1</explosionRadius> -->
@@ -120,7 +141,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
-			<damageAmountBase>50</damageAmountBase>
+			<damageAmountBase>100</damageAmountBase>
 			<armorPenetrationBase>0.5</armorPenetrationBase>
 			<speed>200</speed>
 			<!-- <explosionRadius>1</explosionRadius> -->
@@ -139,7 +160,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_ion</damageDef>
-			<damageAmountBase>50</damageAmountBase>
+			<damageAmountBase>100</damageAmountBase>
 			<armorPenetrationBase>0.25</armorPenetrationBase>
 			<speed>200</speed>
 			<extraDamages>
@@ -167,7 +188,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
-			<damageAmountBase>70</damageAmountBase>
+			<damageAmountBase>130</damageAmountBase>
 			<armorPenetrationBase>0.625</armorPenetrationBase>
 			<speed>200</speed>
 			<!-- <explosionRadius>1</explosionRadius> -->
@@ -191,7 +212,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
-			<damageAmountBase>100</damageAmountBase>
+			<damageAmountBase>200</damageAmountBase>
 			<armorPenetrationBase>0.75</armorPenetrationBase>
 			<speed>200</speed>
 			<!-- <explosionRadius>2</explosionRadius> -->
@@ -222,7 +243,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
-			<damageAmountBase>70</damageAmountBase>
+			<damageAmountBase>130</damageAmountBase>
 			<armorPenetrationBase>0.625</armorPenetrationBase>
 			<speed>200</speed>
 			<!-- <explosionRadius>0.25</explosionRadius> -->
@@ -242,13 +263,13 @@
 		</graphicData>
 		<projectile>
 			<damageDef>guy762_RangedDamage_ion</damageDef>
-			<damageAmountBase>25</damageAmountBase>
+			<damageAmountBase>50</damageAmountBase>
 			<armorPenetrationBase>0.125</armorPenetrationBase>
 			<speed>400</speed>
 			<extraDamages>
 				<li>
 					<def>EMP</def>
-					<amount>25</amount>
+					<amount>50</amount>
 				</li>
 			</extraDamages>
 		</projectile>

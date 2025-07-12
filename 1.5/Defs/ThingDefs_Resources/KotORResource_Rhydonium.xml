@@ -59,7 +59,39 @@
 		</comps>
 	</ThingDef>
 	
-	<!-- Unrefined Rhydonium ================================================================ -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Unrefined Rhydonium + high ================================================================ -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>KOTOR_RawRhydonium</defName>
 		<label>Rhydonium powder</label>
@@ -82,6 +114,7 @@
 		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
+			<!-- <li>Drugs</li> -->
 		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Explosive">
@@ -120,12 +153,280 @@
 				<preExplosionSpawnChance>1</preExplosionSpawnChance>
 				<wickTicks>70~150</wickTicks>
 			</li>
+			
+			<li Class="CompProperties_Drug">
+				<chemical>guy762_chemical_rhydo</chemical>
+				<addictiveness>0.0001</addictiveness>
+				<existingAddictionSeverityOffset>0.10</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<isCombatEnhancingDrug>false</isCombatEnhancingDrug>
+				<listOrder>100</listOrder>
+				<overdoseSeverityOffset>0.20~0.40</overdoseSeverityOffset>
+				<largeOverdoseChance>0.75</largeOverdoseChance>
+			</li>
 		</comps>
+		
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			  <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			  <defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+			  <chairSearchRadius>8</chairSearchRadius>
+			
+			<foodType>Processed</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.25</joy>
+			<drugCategory>Hard</drugCategory>
+			<baseIngestTicks>150</baseIngestTicks>
+			<ingestSound>Ingest_Snort</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.21,0,0.05)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Huff Rhydo</ingestCommandString>
+			<ingestReportString>Huffing Rhydo.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RhydoniumHigh</hediffDef>
+					<severity>0.5</severity>
+					<toleranceChemical>guy762_chemical_rhydo</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>guy762_drugtolerance_rhydo</hediffDef>
+					<severity>0.02</severity>
+					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
+		<orderedTakeGroup>Drug</orderedTakeGroup>
+		
 		<allowedArchonexusCount>100</allowedArchonexusCount>
 		<tradeTags>
 			<li>guy762TT_AllItemsSellable</li>
 		</tradeTags>	
 	</ThingDef>
+	
+	
+	
+	<HediffDef>
+		<defName>RhydoniumHigh</defName>
+		<label>baked on Rhydonium</label>
+		<labelNoun>a Rhydonium high</labelNoun>
+		<description>Active Rhydonium in the circulatory system. Very painful, but generates a strong high.</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1, 0.25, 0.25)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>true</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-1</severityPerDay>
+			<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<painOffset>0.5</painOffset>
+				<capMods>
+					<li>
+					  <capacity>Consciousness</capacity>
+					  <offset>0.5</offset>
+					</li>
+					<li>
+					  <capacity>Breathing</capacity>
+					  <offset>-0.50</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThoughtDef>
+		<defName>RhydoniumHigh</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>RhydoniumHigh</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>baked on Rhydonium</label>
+				<description>I am... the friction... in the air...</description>
+				<baseMoodEffect>25</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<!-- I fucking hate writing these, contrived-ass system -->
+	
+	
+	 <ChemicalDef>
+		<defName>guy762_chemical_rhydo</defName>
+		<label>Rhydonium</label>
+		<addictionHediff>guy762_addiction_rhydo</addictionHediff>
+		<toleranceHediff>guy762_drugtolerance_rhydo</toleranceHediff>
+		<onGeneratedAddictedToleranceChance>0.3</onGeneratedAddictedToleranceChance>
+		<onGeneratedAddictedEvents>
+		  <li>
+			<hediff>ChemicalDamageSevere</hediff>
+			<chance>0.9</chance>
+			<partsToAffect>
+			  <li>Lung</li>
+			</partsToAffect>
+		  </li>
+		</onGeneratedAddictedEvents>
+		<geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>
+		<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>
+	  </ChemicalDef>
+	  
+	  <NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>guy762_chemneed_rhydo</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>Rhydonium</label>
+		<description>Because of a Rhydonium addiction, this person needs to regularly consume the chemical to avoid withdrawal symptoms.</description>
+		<fallPerDay>0.5</fallPerDay>
+		<listPriority>761</listPriority>
+	  </NeedDef>
+
+	  <HediffDef ParentName="AddictionBase">
+		<defName>guy762_addiction_rhydo</defName>
+		<label>rhydo addiction</label>
+		<description>A chemical addiction to Rhydonium. Long-term presence of Rhydonium has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+	\nWithout regular doses of spice, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<causesNeed>guy762_chemneed_rhydo</causesNeed>
+		<comps>
+		  <li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-0.1</severityPerDay>
+			<showDaysToRecover>true</showDaysToRecover>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+		  </li>
+		  <li>
+			<label>withdrawal</label>
+			<painFactor>0.75</painFactor>
+			<capMods>
+				<li>
+				  <capacity>Consciousness</capacity>
+				  <offset>-0.5</offset>
+				</li>
+				<li>
+				  <capacity>Breathing</capacity>
+				  <offset>-0.5</offset>
+				</li>
+			</capMods>
+			<mentalStateGivers>
+			  <li>
+				<mentalState>Tantrum</mentalState>
+				<mtbDays>5</mtbDays>
+			  </li>
+			  <li>
+				<mentalState>TargetedTantrum</mentalState>
+				<mtbDays>5</mtbDays>
+			  </li>
+			  <li>
+				<mentalState>SadisticRage</mentalState>
+				<mtbDays>10</mtbDays>
+			  </li>
+			  <li>
+				<mentalState>Berserk</mentalState>
+				<mtbDays>20</mtbDays>
+			  </li>
+			  <li>
+				<mentalState>MurderousRage</mentalState>
+				<mtbDays>30</mtbDays>
+			  </li>
+			</mentalStateGivers>
+		  </li>
+		</stages>
+	  </HediffDef>
+	  
+	  <ThoughtDef>
+		<defName>guy762_withdrawlthought_rhydo</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>guy762_addiction_rhydo</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+		  <li>
+			<visible>false</visible>
+		  </li>
+		  <li>
+			<label>rhydo withdrawal</label>
+			<description>Lungs tight... hard to breathe... need the rhydo...</description>
+			<baseMoodEffect>-15</baseMoodEffect>
+		  </li>
+		</stages>
+	  </ThoughtDef>
+
+	  <HediffDef ParentName="DrugToleranceBase">
+		<defName>guy762_drugtolerance_rhydo</defName>
+		<label>rhydo tolerance</label>
+		<description>A built-up tolerance to Rhydonium. The more severe this tolerance is, the more Rhydonium it takes to get the same effect.</description>
+		<comps>
+		  <li Class="HediffCompProperties_SeverityPerDay">
+			<severityPerDay>-0.01</severityPerDay>
+		  </li>
+		  <li Class="HediffCompProperties_DrugEffectFactor">
+			<chemical>guy762_chemical_rhydo</chemical>
+		  </li>
+		</comps>
+		<hediffGivers>
+		  <li Class="HediffGiver_RandomDrugEffect">
+			<hediff>ChemicalDamageModerate</hediff>
+			<severityToMtbDaysCurve>
+			  <points>
+				<li>(0.45, 99999)</li>
+				<li>(0.5, 120)</li>
+				<li>(1, 90)</li>
+			  </points>
+			</severityToMtbDaysCurve>
+			<partsToAffect>
+			  <li>Lung</li>
+			</partsToAffect>
+		  </li>
+		</hediffGivers>
+	  </HediffDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	<!-- Refined Rhydonium ================================================================ -->
 	<ThingDef ParentName="ResourceBase">

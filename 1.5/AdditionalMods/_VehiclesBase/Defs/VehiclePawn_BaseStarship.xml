@@ -460,6 +460,9 @@
 		<vehicleStats>
 			<MoveSpeed>1</MoveSpeed>
 		</vehicleStats>
+		<statBases>
+			<PawnTrapSpringChance>0</PawnTrapSpringChance>
+		</statBases>
 		
 		<drawOffscreen>true</drawOffscreen>
 		

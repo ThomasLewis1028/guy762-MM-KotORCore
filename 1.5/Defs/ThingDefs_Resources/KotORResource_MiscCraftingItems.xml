@@ -476,5 +476,270 @@
 			<Crafting>6</Crafting>
 		</skillRequirements>
 	  </RecipeDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+				<!-- PLASTOID  -->
+	  
+	  
+	  
+	  <ThingDef ParentName="ResourceBase">
+		<defName>KOTOR_Plastoid</defName>
+		<label>Plastoid</label>
+		<description>A lightweight yet brittle form of plastic that is highly effective at dispersing energy attacks.</description>
+		<graphicData>
+			<texPath>raw_resources/plasteel_blank</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(245,245,245)</color>
+		</graphicData>
+		<statBases>
+		  <MarketValue>4</MarketValue>
+		  <MaxHitPoints>75</MaxHitPoints>
+		  <Mass>0.05</Mass>
+		  <Flammability>0.05</Flammability>
+		  <DeteriorationRate>0</DeteriorationRate>
+		  <StuffPower_Armor_Sharp>0.25</StuffPower_Armor_Sharp>
+		  <StuffPower_Armor_Blunt>0.1</StuffPower_Armor_Blunt>
+		  <StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+		  <StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+		  <SharpDamageMultiplier>1</SharpDamageMultiplier>
+		  <BluntDamageMultiplier>0.25</BluntDamageMultiplier>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<stuffProps>
+		  <categories>
+			<li>Woody</li>
+		  </categories>
+		  <commonality>0.25</commonality>
+		  <color>(245,245,245)</color>
+		  
+		  <statFactors>
+			<Flammability>0.05</Flammability>
+			<MaxHitPoints>0.75</MaxHitPoints>
+			<Beauty>0.5</Beauty>
+			<MoveSpeed>0.1</MoveSpeed>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			
+			<WorkToMake>0.5</WorkToMake>
+			<WorkToBuild>0.5</WorkToBuild>
+			<MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
+		  </statFactors>
+		  
+		</stuffProps>
+		<thingCategories>
+		  <li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>guy762TT_KotORRawMat_common</li>
+			<li>guy762TT_AllItemsSellable</li>
+		</tradeTags>	
+	  </ThingDef>
+	  
+	  
+	  
+	  <RecipeDef>
+		<defName>KOTOR_Plastoid_recipe</defName>
+		<label>smelt 5 Plastoid</label>
+		<description>smelt 5 Plastoid sheets.</description>
+		<jobString>Smelting 5 Plastoid sheets.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<workAmount>3200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<KOTOR_Plastoid>5</KOTOR_Plastoid>
+		</products>
+		<researchPrerequisite>KOTOR_Research_AdvMaterials</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<displayPriority>10</displayPriority>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+			<li>kotor_PlasmaFurnace</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>KOTOR_Plastoid_10xrecipe</defName>
+		<label>smelt 50 Plastoid</label>
+		<description>smelt 50 Plastoid sheets.</description>
+		<jobString>Smelting 50 Plastoid sheets.</jobString>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<workAmount>32000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<KOTOR_Plastoid>50</KOTOR_Plastoid>
+		</products>
+		<researchPrerequisite>KOTOR_Research_AdvMaterials</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<displayPriority>10</displayPriority>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+			<li>kotor_PlasmaFurnace</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			<!-- SYNTHREAD from plastoid -->
+	
+	
+	<RecipeDef>
+		<defName>KotORRecipe_Synthread</defName>
+		<label>make 50 Synthread</label>
+		<description>Extrude Plastoid into a synthetic fiber known as Synthread suitable for use as a commercial textile.</description>
+		<jobString>Making 50 Synthread.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>5000</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>KOTOR_Plastoid</li>
+			  </thingDefs>
+			</filter>
+			<count>40</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>KOTOR_Plastoid</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+		  <Synthread>50</Synthread>
+		</products>
+		<recipeUsers>
+			<li>FabricationBench</li>
+			<li MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</li>
+		</recipeUsers>
+		<researchPrerequisite>KOTOR_Research_AdvMaterials</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	  </RecipeDef>
+	  
+	  <RecipeDef>
+		<defName>KotORRecipe_2xSynthread</defName>
+		<label>make 100 Synthread</label>
+		<description>Extrude Plastoid into a synthetic fiber known as Synthread suitable for use as a commercial textile.</description>
+		<jobString>Making 100 Synthread.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>10000</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>KOTOR_Plastoid</li>
+			  </thingDefs>
+			</filter>
+			<count>80</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>KOTOR_Plastoid</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+		  <Synthread>100</Synthread>
+		</products>
+		<recipeUsers>
+			<li>FabricationBench</li>
+			<li MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</li>
+		</recipeUsers>
+		<researchPrerequisite>KOTOR_Research_AdvMaterials</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	  </RecipeDef>
+	
+	
+	
+	
+	
+	
 		
 </Defs>

@@ -7,15 +7,13 @@
 	<Vehicles.VehicleDef Name = "guy762_GroundVehiclePawn_base" ParentName = "guy762_VehiclePawn_base" Abstract = "True">
 		<properties>
 			<worldSpeedMultiplier>1</worldSpeedMultiplier>
+			<customTerrainCosts AssignDefaults = "1"/>
 		</properties>
 		
 		<vehicleStats>
 			<!--AccelerationRate>0.03</AccelerationRate-->
 		</vehicleStats>
 		
-		<properties>
-			<customTerrainCosts AssignDefaults = "1"/>
-		</properties>
 		
 		<soundOneShotsOnEvent Inherit = "False">
 			<li>
