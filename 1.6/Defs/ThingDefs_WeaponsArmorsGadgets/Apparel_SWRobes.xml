@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	
-	
-	
-  
 
-  
-  
-  
-  
   <ThingDef ParentName="guy762_ModdableMakeableArmor_soft">
 		<defName>guy762_Robes_jawa</defName>
 		<label>robes, rustic</label>
-		<description>Thick robes like these are worn to protect the wearer from temperature extremes.</description>
+		<description>Thick robes like these are worn to protect the wearer from temperature extremes.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
 		<graphicData>
 		  <texPath>Apparel/Robes/jawa/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -68,6 +60,7 @@
 			<tags Inherit="False">
 				<li>SaV_apparel_jawa</li>
 				<li>KotORClothing_civilian_villager</li>
+				<li>SWCPSpecificApparelItem_KotORJawaRobes</li>
 			</tags>
 			<wornGraphicPath>Apparel/Robes/jawa/Apparel</wornGraphicPath>
 		</apparel>
@@ -99,13 +92,19 @@
 			</options>
 		</colorGenerator>
 		<comps>
-		  <li MayRequire="kaitorisenkou.ModularWeapons" Class="ModularWeapons.CompProperties_ModularParts">
-			<compClass>ModularWeapons.CompModularParts</compClass>
-			<partKinds>
-			  <li>guy762_slot_underlay_robe</li>
-			</partKinds>
-			<randomizeParts>true</randomizeParts>
-		  </li>
+			<li MayRequire="kaitorisenkou.ModularWeapons2" Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/Robes/jawa/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay_robe</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
 		</comps>
 	  </ThingDef>
 	  
@@ -114,7 +113,7 @@
 	  <ThingDef ParentName="guy762_ModdableMakeableArmor_soft">
 		<defName>guy762_Robes_tusken</defName>
 		<label>robes, rugged</label>
-		<description>Thick robes like these are worn to protect the wearer from temperature extremes.</description>
+		<description>Thick robes like these are worn to protect the wearer from temperature extremes.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
 		<graphicData>
 		  <texPath>Apparel/Robes/tusken/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -170,6 +169,7 @@
 				<li>SaV_apparel_tusken</li>
 				<li>KotORClothing_civilian_villager</li>
 				<li>KotORClothing_civilian_hooded</li>
+				<li>SWCPSpecificApparelItem_TuskenRobes</li>
 			</tags>
 			<wornGraphicPath>Apparel/Robes/tusken/Apparel</wornGraphicPath>
 		</apparel>
@@ -205,13 +205,19 @@
 			</options>
 		</colorGenerator>
 		<comps>
-		  <li MayRequire="kaitorisenkou.ModularWeapons" Class="ModularWeapons.CompProperties_ModularParts">
-			<compClass>ModularWeapons.CompModularParts</compClass>
-			<partKinds>
-			  <li>guy762_slot_underlay_robe</li>
-			</partKinds>
-			<randomizeParts>true</randomizeParts>
-		  </li>
+			<li MayRequire="kaitorisenkou.ModularWeapons2" Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/Robes/tusken/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay_robe</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
 		</comps>
 	  </ThingDef>
   
@@ -222,7 +228,7 @@
   <ThingDef ParentName="guy762_ModdableMakeableArmor_soft">
 		<defName>guy762_Robes_onderon</defName>
 		<label>robes, wayfarer's</label>
-		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<description>These are simple garments that protect little more than the modesty of the wearer.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
 		<graphicData>
 		  <texPath>Apparel/Robes/onderon/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -278,6 +284,7 @@
 			</bodyPartGroups>
 			<tags Inherit="False">
 				<li>KotORClothing_civilian_villager</li>
+				<li>SWCPSpecificApparelItem_KotOROnderonRobes</li>
 			</tags>
 			<wornGraphicPath>Apparel/Robes/onderon/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -341,13 +348,19 @@
 			</options>
 		</colorGenerator>
 		<comps>
-		  <li MayRequire="kaitorisenkou.ModularWeapons" Class="ModularWeapons.CompProperties_ModularParts">
-			<compClass>ModularWeapons.CompModularParts</compClass>
-			<partKinds>
-			  <li>guy762_slot_underlay_robe</li>
-			</partKinds>
-			<randomizeParts>true</randomizeParts>
-		  </li>
+			<li MayRequire="kaitorisenkou.ModularWeapons2" Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/Robes/onderon/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay_robe</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
 		</comps>
 	  </ThingDef>
   

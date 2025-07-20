@@ -15,7 +15,7 @@
             <parts>
                 
                 <li>
-                    <def>ABF_BodyPart_Synstruct_Generator</def>
+                    <def>ABF_BodyPart_Synstruct_Battery</def>
                     <coverage>0.005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -163,35 +163,36 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>guy762BG_Droid_CenterHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pincer</customLabel>
-                                            <coverage>0.06</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-												<li>guy762BG_Droid_CenterHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pincer</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-												<li>guy762BG_Droid_CenterHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>center pincer</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-												<li>guy762BG_Droid_CenterHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pincer</customLabel> -->
+                                            <!-- <coverage>0.06</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+												<!-- <li>guy762BG_Droid_CenterHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pincer</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+												<!-- <li>guy762BG_Droid_CenterHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>center pincer</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+												<!-- <li>guy762BG_Droid_CenterHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -222,35 +223,36 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>LeftHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pincer</customLabel>
-                                            <coverage>0.06</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pincer</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>center pincer</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pincer</customLabel> -->
+                                            <!-- <coverage>0.06</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pincer</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>center pincer</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -281,35 +283,36 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>RightHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pincer</customLabel>
-                                            <coverage>0.06</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pincer</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>center pincer</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pincer</customLabel> -->
+                                            <!-- <coverage>0.06</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pincer</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>center pincer</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -363,7 +366,7 @@
             </groups>
             <parts>
                 <li>
-                    <def>ABF_BodyPart_Synstruct_Generator</def>
+                    <def>ABF_BodyPart_Synstruct_Battery</def>
                     <coverage>0.005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -519,35 +522,36 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>guy762BG_Droid_CenterHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pincer</customLabel>
-                                            <coverage>0.06</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-												<li>guy762BG_Droid_CenterHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pincer</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-												<li>guy762BG_Droid_CenterHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>center pincer</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-												<li>guy762BG_Droid_CenterHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pincer</customLabel> -->
+                                            <!-- <coverage>0.06</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+												<!-- <li>guy762BG_Droid_CenterHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pincer</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+												<!-- <li>guy762BG_Droid_CenterHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>center pincer</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+												<!-- <li>guy762BG_Droid_CenterHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -578,35 +582,36 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>LeftHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pincer</customLabel>
-                                            <coverage>0.06</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pincer</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>center pincer</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pincer</customLabel> -->
+                                            <!-- <coverage>0.06</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pincer</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>center pincer</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -637,35 +642,36 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>RightHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pincer</customLabel>
-                                            <coverage>0.06</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pincer</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>center pincer</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pincer</customLabel> -->
+                                            <!-- <coverage>0.06</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pincer</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>center pincer</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -712,7 +718,7 @@
             <parts>
                 
                 <li>
-                    <def>ABF_BodyPart_Synstruct_Generator</def>
+                    <def>ABF_BodyPart_Synstruct_Battery</def>
                     <coverage>0.005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -938,7 +944,7 @@
             <parts>
                 
                 <li>
-                    <def>ABF_BodyPart_Synstruct_Generator</def>
+                    <def>ABF_BodyPart_Synstruct_Battery</def>
                     <coverage>0.005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -1116,35 +1122,36 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>RightHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pincer</customLabel>
-                                            <coverage>0.05</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pincer</customLabel>
-                                            <coverage>0.05</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>center pincer</customLabel>
-                                            <coverage>0.05</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>RightHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pincer</customLabel> -->
+                                            <!-- <coverage>0.05</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pincer</customLabel> -->
+                                            <!-- <coverage>0.05</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>center pincer</customLabel> -->
+                                            <!-- <coverage>0.05</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>RightHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>

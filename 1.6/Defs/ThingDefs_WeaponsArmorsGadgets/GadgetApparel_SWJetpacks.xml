@@ -42,6 +42,7 @@
     <apparel>
 	  <tags>
 		<li>MNC_jetpack_light</li>
+		<li>SWCPSpecificApparelItem_SabineJetpack</li>
 	  </tags>
 	  <wornGraphicPath>Apparel/Jetpacks/jetpack_light</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
@@ -165,6 +166,7 @@
     <apparel>
 	  <tags>
 		<li>SaV_jetpack</li>
+		<li>SWCPSpecificApparelItem_DashRendarJetpack</li>
 	  </tags>
 	  <wornGraphicPath>Apparel/Jetpacks/jetpack_heavy</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>

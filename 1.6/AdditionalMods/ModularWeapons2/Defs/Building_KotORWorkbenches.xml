@@ -6,7 +6,7 @@
 		<defName>guy762_KotORWorkbench</defName>
 		<label>Aratech workbench</label>
 		<description>A highly advanced workbench for creating and modifying weapons and armor.\n\nAbout upgrading:\nNot all weapons can be upgraded; the fabrication patterns of common, base-level blasters and vibroweapons that you are capable of manufacturing in your own facilities are streamlined and simplistic, and modifying them in any meaningful capacity cannot reasonably be done. Weapons of more modular design found throughout the galaxy require highly advanced fabrication technology to manufacture, the specifics of which are closely-guarded corporate secrets. Weapons of this kind must be found - either bought from a trader, or looted from your enemies.\nSimilarly, upgrade items must also first be found or bought before they can be installed. Once installed, an upgrade cannot be salvaged, only replaced or removed. Ensure you are installing your upgrade on the weapon you want it on before completing the UI!</description>
-		<thingClass>ModularWeapons.Building_GunsmithStation</thingClass>
+		<thingClass>ModularWeapons2.Building_GunsmithStation</thingClass>
 		<graphicData>
 		  <texPath>Buildings/Workbench/armour_workbench</texPath>
 		  <graphicClass>Graphic_Multi</graphicClass>

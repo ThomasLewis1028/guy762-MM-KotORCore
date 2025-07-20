@@ -347,6 +347,26 @@
 	
 	
 	<ThingDef ParentName="guy762_AVandAAprojectileBASE">
+		<defName>SWVehicleBullet_AVAAred</defName>
+		<label>laser bolt</label>
+		<graphicData>
+			<texPath>Weapons/Projectiles/AntiVehicle_red</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>guy762_RangedDamage_AntiVehicleEnergy</damageDef>
+			<damageAmountBase>50</damageAmountBase>
+			<armorPenetrationBase>0.50</armorPenetrationBase>
+			<speed>100</speed>
+			<!-- <explosionRadius>0.25</explosionRadius> -->
+		</projectile>
+		<!-- <thingClass>Projectile_Explosive</thingClass> -->
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="guy762_AVandAAprojectileBASE">
 		<defName>SWVehicleBullet_AVAAdoublered</defName>
 		<label>laser bolts</label>
 		<graphicData>

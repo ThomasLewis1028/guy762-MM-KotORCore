@@ -55,12 +55,12 @@
           <hediffDef>guy762_repairkitHeal</hediffDef>
           <severity>1.0</severity>
         </li-->
-		<li Class="ArtificialBeings.IngestionOutcomeDoer_SplitEffects">
-			<organicEffect>ABF_Hediff_Synstruct_Toxicated</organicEffect>
-			<organicSeverity>1</organicSeverity>
-			<artificialEffect>guy762_repairkitHeal</artificialEffect>
-			<artificialSeverity>1</artificialSeverity>
-		</li>
+		<!-- <li Class="ArtificialBeings.IngestionOutcomeDoer_SplitEffects"> -->
+			<!-- <organicEffect>ABF_Hediff_Synstruct_Toxicated</organicEffect> -->
+			<!-- <organicSeverity>1</organicSeverity> -->
+			<!-- <artificialEffect>guy762_repairkitHeal</artificialEffect> -->
+			<!-- <artificialSeverity>1</artificialSeverity> -->
+		<!-- </li> -->
       </outcomeDoers>
     </ingestible>
 	<tradeTags>
@@ -145,12 +145,12 @@
           <hediffDef>guy762_repairkitHeal_adv</hediffDef>
           <severity>1.0</severity>
         </li-->
-		<li Class="ArtificialBeings.IngestionOutcomeDoer_SplitEffects">
-			<organicEffect>ABF_Hediff_Synstruct_Toxicated</organicEffect>
-			<organicSeverity>1</organicSeverity>
-			<artificialEffect>guy762_repairkitHeal_adv</artificialEffect>
-			<artificialSeverity>1</artificialSeverity>
-		</li>
+		<!-- <li Class="ArtificialBeings.IngestionOutcomeDoer_SplitEffects"> -->
+			<!-- <organicEffect>ABF_Hediff_Synstruct_Toxicated</organicEffect> -->
+			<!-- <organicSeverity>1</organicSeverity> -->
+			<!-- <artificialEffect>guy762_repairkitHeal_adv</artificialEffect> -->
+			<!-- <artificialSeverity>1</artificialSeverity> -->
+		<!-- </li> -->
       </outcomeDoers>
     </ingestible>
 	<tradeTags>
@@ -237,12 +237,12 @@
           <hediffDef>guy762_repairkitHeal_con</hediffDef>
           <severity>1.0</severity>
         </li-->
-		<li Class="ArtificialBeings.IngestionOutcomeDoer_SplitEffects">
-			<organicEffect>ABF_Hediff_Synstruct_Toxicated</organicEffect>
-			<organicSeverity>1</organicSeverity>
-			<artificialEffect>guy762_repairkitHeal_con</artificialEffect>
-			<artificialSeverity>1</artificialSeverity>
-		</li>
+		<!-- <li Class="ArtificialBeings.IngestionOutcomeDoer_SplitEffects"> -->
+			<!-- <organicEffect>ABF_Hediff_Synstruct_Toxicated</organicEffect> -->
+			<!-- <organicSeverity>1</organicSeverity> -->
+			<!-- <artificialEffect>guy762_repairkitHeal_con</artificialEffect> -->
+			<!-- <artificialSeverity>1</artificialSeverity> -->
+		<!-- </li> -->
       </outcomeDoers>
     </ingestible>
 	<tradeTags>

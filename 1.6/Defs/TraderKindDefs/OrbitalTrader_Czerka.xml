@@ -444,7 +444,7 @@
       </li>
 	  
 	  <li MayRequire="guy762.KotORDroids" Class="StockGenerator_SingleDef">
-		<thingDef>ABF_Thing_Synstruct_ChargingStation</thingDef>
+		<thingDef>ABF_Thing_Synstruct_Enervoir</thingDef>
 		<countRange>4~6</countRange>
 	  </li>
 

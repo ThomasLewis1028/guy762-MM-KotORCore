@@ -25,10 +25,13 @@
 		</statBases>
 		<equippedStatOffsets>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+			
+			<PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.1</PilotingAbility>
 		</equippedStatOffsets>
 		<apparel>
 		  <tags Inherit="False">
 			<li>NewRepublic_pilot</li>
+			<li>SWCPSpecificApparelItem_RebelFlightSuitBox</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/RebelPilot/Apparel</wornGraphicPath>
 		  <defaultOutfitTags Inherit="False">
@@ -79,6 +82,8 @@
 	<equippedStatOffsets>
       <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
 	  <DecompressionResistance MayRequire="kentington.saveourship2">0.125</DecompressionResistance>
+	  
+	  <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.1</PilotingAbility>
     </equippedStatOffsets>
 	
 	
@@ -95,6 +100,7 @@
     <apparel>
       <tags Inherit="False">
 		<li>KotORClothing_pilot</li>
+		<li>SWCPSpecificApparelItem_FlightVest</li>
       </tags>
       <wornGraphicPath>Apparel/FlightVest/Apparel</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
@@ -150,12 +156,16 @@
 		<MoveSpeed>-0.1</MoveSpeed>
 		<MeleeDodgeChance>-0.1</MeleeDodgeChance>
 		<IncomingDamageFactor>-0.05</IncomingDamageFactor>
+		
 		<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">2</VacuumSpeedMultiplier>
 		<DecompressionResistance MayRequire="kentington.saveourship2">0.125</DecompressionResistance>
+		
+		<PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.2</PilotingAbility>
 	</equippedStatOffsets>
     <apparel>
       <tags Inherit="False">
 		<li>KotORClothing_pilot</li>
+		<li>SWCPSpecificApparelItem_KotORFlightArmor</li>
       </tags>
       <wornGraphicPath>Apparel/FlightArmor/Apparel</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>

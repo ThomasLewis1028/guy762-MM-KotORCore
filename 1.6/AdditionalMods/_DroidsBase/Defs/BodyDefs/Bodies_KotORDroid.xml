@@ -49,7 +49,7 @@
             <parts>
                 
                 <li>
-                    <def>ABF_BodyPart_Synstruct_Generator</def>
+                    <def>ABF_BodyPart_Synstruct_Battery</def>
                     <coverage>0.005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -210,53 +210,54 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>LeftHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pinky</customLabel>
-                                            <coverage>0.06</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left ring finger</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left middle finger</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left index finger</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left thumb</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pinky</customLabel> -->
+                                            <!-- <coverage>0.06</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left ring finger</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left middle finger</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left index finger</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left thumb</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -286,53 +287,54 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>RightHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pinky</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right ring finger</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right middle finger</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right index finger</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right thumb</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pinky</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right ring finger</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right middle finger</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right index finger</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right thumb</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -414,7 +416,7 @@
             <parts>
                 
                 <li>
-                    <def>ABF_BodyPart_Synstruct_Generator</def>
+                    <def>ABF_BodyPart_Synstruct_Battery</def>
                     <coverage>0.005</coverage>
                     <depth>Inside</depth>
                     <groups>
@@ -557,53 +559,54 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>LeftHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left pinky</customLabel>
-                                            <coverage>0.06</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left ring finger</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left middle finger</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left index finger</customLabel>
-                                            <coverage>0.07</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>left thumb</customLabel>
-                                            <coverage>0.08</coverage>
-                                            <groups>
-                                                <li>Hands</li>
-                                                <li>LeftHand</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left pinky</customLabel> -->
+                                            <!-- <coverage>0.06</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left ring finger</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left middle finger</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left index finger</customLabel> -->
+                                            <!-- <coverage>0.07</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>left thumb</customLabel> -->
+                                            <!-- <coverage>0.08</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>Hands</li> -->
+                                                <!-- <li>LeftHand</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>
@@ -633,53 +636,54 @@
                                     <height>Bottom</height>
                                     <groups>
                                         <li>Hands</li>
+										<li>RightHand</li>
                                     </groups>
                                     <parts>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right pinky</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right ring finger</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right middle finger</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right index finger</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
-                                        <li>
-                                            <def>ABF_BodyPart_Synstruct_Finger</def>
-                                            <customLabel>right thumb</customLabel>
-                                            <coverage>0.15</coverage>
-                                            <groups>
-                                                <li>RightHand</li>
-                                                <li>Hands</li>
-                                            </groups>
-                                        </li>
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right pinky</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right ring finger</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right middle finger</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right index finger</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
+                                        <!-- <li> -->
+                                            <!-- <def>ABF_BodyPart_Synstruct_Finger</def> -->
+                                            <!-- <customLabel>right thumb</customLabel> -->
+                                            <!-- <coverage>0.15</coverage> -->
+                                            <!-- <groups> -->
+                                                <!-- <li>RightHand</li> -->
+                                                <!-- <li>Hands</li> -->
+                                            <!-- </groups> -->
+                                        <!-- </li> -->
                                     </parts>
                                 </li>
                             </parts>

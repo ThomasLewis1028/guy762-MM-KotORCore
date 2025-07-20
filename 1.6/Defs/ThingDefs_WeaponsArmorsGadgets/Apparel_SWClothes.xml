@@ -2,70 +2,6 @@
 <Defs>
 	
 	
-	
-	<ThingDef ParentName="guy762_HatCraftableBase">
-		<defName>guy762_UniformCap_rebel</defName>
-		<label>uniform cap</label>
-		<description>A formal cap for military personnel.</description>
-		<graphicData>
-		  <texPath>Apparel/GenericMilitaryFatigues/hat</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-		  <MarketValue>10</MarketValue>
-		  <MaxHitPoints>80</MaxHitPoints>
-		  <Mass>0.05</Mass>
-		  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.01</ArmorRating_Heat>
-		  <EquipDelay>0.1</EquipDelay>
-		  
-		  
-		  <WorkToMake>1000</WorkToMake>
-		</statBases>
-		<!-- <equippedStatOffsets> -->
-		  <!-- <SocialImpact>0.1</SocialImpact> -->
-		<!-- </equippedStatOffsets> -->
-		
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>4</Crafting>
-			</skillRequirements>
-		</recipeMaker>
-		<costList>
-			<Cloth>20</Cloth>
-		</costList>
-		
-		<apparel>
-		  <wornGraphicPath>Apparel/GenericMilitaryFatigues/hat</wornGraphicPath>
-		  <bodyPartGroups>
-			<li>UpperHead</li>
-		  </bodyPartGroups>
-		  <layers>
-			<li>Overhead</li>
-		  </layers>
-		  <tags>
-			<li>NewRepublic_engineer</li>
-			<li>NewRepublic_RebelAgent_hats</li>
-		  </tags>
-		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
-		</apparel>
-		<tradeTags>
-			<li>guy762TT_KotORClothes</li>
-		</tradeTags>
-		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
-			<options>
-				<li>
-					<weight>15</weight>
-					<only>(175,150,120)</only>       <!-- bespin beige -->
-				</li>
-			</options>
-		</colorGenerator>
-	</ThingDef> 
-	  
-	  
 	  
 	<ThingDef ParentName="guy762_clothingbase">
 		<defName>guy762_GenericUniform_fatigues</defName>
@@ -102,6 +38,7 @@
 		<apparel>
 		  <tags Inherit="False">
 			<li>RemnantEmpire_armytrooper</li>
+			<li>SWCPSpecificApparelItem_GenericUniform</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/GenericMilitaryFatigues/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -188,6 +125,7 @@
 		  <tags Inherit="False">
 			<li>KotORClothing_any</li>
 			<li>SaV_apparel_thug</li>
+			<li>SWCPSpecificApparelItem_TwoToneRusticClothing</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/scum/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -253,6 +191,7 @@
 			<li>KotORClothing_civilian_hooded</li>
 			<li>SaV_apparel_thug</li>
 			<li>SithRem_apparel_undersuit</li>
+			<li>SWCPSpecificApparelItem_RusticClothing</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/scum/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>false</useWornGraphicMask>
@@ -329,6 +268,7 @@
 			<li>KotORClothing_any</li>
 			<li>KotORClothing_civilian_mid</li>
 			<li>KotORClothing_smuggler</li>
+			<li>SWCPSpecificApparelItem_PlainClothing</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/civilian/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -406,6 +346,7 @@
 		<apparel>
 		  <tags Inherit="False">
 			<li>NewRepublic_alderaanguard</li>
+			<li>SWCPSpecificApparelItem_TwoTonePlainClothing</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/rebel/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -472,6 +413,7 @@
 			<li>KotORClothing_civilian_punk</li>
 			<li>SaV_apparel_thug</li>
 			<li>SaV_apparel_crimelord</li>
+			<li>SWCPSpecificApparelItem_SmugglerClothing</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/smuggler/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -549,6 +491,7 @@
 			<li>KotORClothing_civilian_bougie</li>
 			<li>SaV_apparel_roguetrader</li>
 			<li>KotORRoyaltyTag_drip</li>
+			<li>SWCPSpecificApparelItem_TrendyClothing</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/trendy/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -606,6 +549,7 @@
 		  <tags Inherit="False">
 			<li>KotORClothing_any</li>
 			<li>KotORClothing_civilian_bougie</li>
+			<li>SWCPSpecificApparelItem_CosmopolitanClothing</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/cosmopolitan/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -670,6 +614,7 @@
 			<li>KotORClothing_any</li>
 			<li>KotORClothing_civilian_mid</li>
 			<li>KotORClothing_civilian_punk</li>
+			<li>SWCPSpecificApparelItem_LightClothing</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/light/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -735,6 +680,7 @@
 		<li>KotORClothing_undersuit</li>
 		<li>KotORClothing_civilian_prole</li>
 		<li>SithRem_apparel_undersuit</li>
+		<li>SWCPSpecificApparelItem_DyeableFatigues</li>
       </tags>
       <wornGraphicPath>Apparel/Undersuits/worker/Apparel</wornGraphicPath>
       <defaultOutfitTags Inherit="False">
@@ -805,6 +751,7 @@
 		  <tags Inherit="False">
 			<li>KotORClothing_undersuit</li>
 			<li>KotORClothing_civilian_prole</li>
+			<li>SWCPSpecificApparelItem_StripedFatigues</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Undersuits/worker/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -853,6 +800,7 @@
 	</statBases>
 	<equippedStatOffsets>
 		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+		<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>		
 	</equippedStatOffsets>
 	
 	<costList>
@@ -866,6 +814,7 @@
 		<li>MNC_outfit_mid</li>
 		<li>MNC_outfit_heavy</li>
 		<li>EVA</li>
+		<li>SWCPSpecificApparelItem_VacSealedBodysuit</li>
       </tags>
       <wornGraphicPath>Apparel/Undersuits/vac/Apparel</wornGraphicPath>
       <defaultOutfitTags Inherit="False">
@@ -937,10 +886,10 @@
   
   
   
-  <ThingDef ParentName="KotORArmorModdable_soft">
+	<ThingDef ParentName="KotORArmorModdable_soft">
 		<defName>guy762_Jacket_scoundrel</defName>
 		<label>jacket, scoundrel's</label>
-		<description>This is a fine jacket popular with smugglers and scoundrels alike.</description>
+		<description>This is a fine jacket popular with smugglers and scoundrels alike.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
 		<graphicData>
 		  <texPath>Apparel/Accessories/jacket_smuggler/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -976,6 +925,7 @@
 				<li>KotORClothing_smuggler</li>
 				<li>KotORClothing_civilian_punk</li>
 				<li>KotORRoyaltyTag_drip</li>
+				<li>SWCPSpecificApparelItem_KotORScoundrelJacket</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/jacket_smuggler/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -1010,22 +960,28 @@
 		</colorGenerator>
 		
 		<comps>
-		  <li MayRequire="kaitorisenkou.ModularWeapons" Class="ModularWeapons.CompProperties_ModularParts">
-			<compClass>ModularWeapons.CompModularParts</compClass>
-			<partKinds>
-			  <li>guy762_slot_underlay</li>
-			</partKinds>
-			<randomizeParts>true</randomizeParts>
-		  </li>
+			<li MayRequire="kaitorisenkou.ModularWeapons2" Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/Accessories/jacket_smuggler/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
 		</comps>
-	  </ThingDef>
+	</ThingDef>
 	  
 	  
 	  
-	  <ThingDef ParentName="KotORArmorModdable_soft">
+	<ThingDef ParentName="KotORArmorModdable_soft">
 		<defName>guy762_Jacket_mission</defName>
 		<label>vest, trendy</label>
-		<description>This is a puffy vest popular on many urban worlds.</description>
+		<description>This is a puffy vest popular on many urban worlds.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
 		<graphicData>
 		  <texPath>Apparel/Accessories/vest_mission/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1057,6 +1013,7 @@
 			<tags Inherit="False">
 				<li>KotORClothing_civilian_bougie</li>
 				<li>SaV_apparel_mission</li>
+				<li>SWCPSpecificApparelItem_TrendyVest</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/vest_mission/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -1095,21 +1052,27 @@
 		</colorGenerator>
 		
 		<comps>
-		  <li MayRequire="kaitorisenkou.ModularWeapons" Class="ModularWeapons.CompProperties_ModularParts">
-			<compClass>ModularWeapons.CompModularParts</compClass>
-			<partKinds>
-			  <li>guy762_slot_underlay</li>
-			</partKinds>
-			<randomizeParts>true</randomizeParts>
-		  </li>
+			<li MayRequire="kaitorisenkou.ModularWeapons2" Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/Accessories/vest_mission/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
 		</comps>
 	  </ThingDef>
 	  
 	  
-	  <ThingDef ParentName="KotORArmorModdable_soft">
+	<ThingDef ParentName="KotORArmorModdable_soft">
 		<defName>guy762_Jacket_scout</defName>
 		<label>vest, scout's</label>
-		<description>This is a utilitarian vest popular among spacers and colonial pioneers.</description>
+		<description>This is a utilitarian vest popular among spacers and colonial pioneers.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
 		<graphicData>
 		  <texPath>Apparel/Accessories/vest_scout/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -1146,6 +1109,7 @@
 				<li>KotORClothing_civilian_mid</li>
 				<li>KotORClothing_civilian_punk</li>
 				<li>NewRepublic_rebeltrooper</li>
+				<li>SWCPSpecificApparelItem_ScoutVest</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/vest_scout/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -1184,15 +1148,21 @@
 		</colorGenerator>
 		
 		<comps>
-		  <li MayRequire="kaitorisenkou.ModularWeapons" Class="ModularWeapons.CompProperties_ModularParts">
-			<compClass>ModularWeapons.CompModularParts</compClass>
-			<partKinds>
-			  <li>guy762_slot_underlay</li>
-			</partKinds>
-			<randomizeParts>true</randomizeParts>
-		  </li>
+			<li MayRequire="kaitorisenkou.ModularWeapons2" Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/Accessories/vest_scout/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
 		</comps>
-	  </ThingDef>
+	</ThingDef>
 	  
 
 	  

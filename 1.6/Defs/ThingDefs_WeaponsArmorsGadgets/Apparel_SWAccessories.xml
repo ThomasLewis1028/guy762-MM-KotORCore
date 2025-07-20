@@ -47,6 +47,7 @@
 				<li>SWWarlordsAccessory_scumtrooper</li>
 				<li>SWWarlordsAccessory_trooper</li>
 				<li>SaV_wookiee</li>
+				<li>SWCPSpecificApparelItem_SimpleSuspenders</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/suspenders_simple/Apparel</wornGraphicPath>
 			<drawData>
@@ -141,6 +142,7 @@
 				<li>KotORAccessory_engi</li>
 				<li>KotORAccessory_specops</li>
 				<li>SaV_wookiee</li>
+				<li>SWCPSpecificApparelItem_EngineerSuspenders</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/suspenders_engi/Apparel</wornGraphicPath>
 			<drawData>
@@ -226,6 +228,7 @@
 				<li>KotORAccessory_heavy</li>
 				<li>KotORAccessory_trader</li>
 				<li>SaV_wookiee</li>
+				<li>SWCPSpecificApparelItem_HeavySuspenders</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/suspenders_heavy/Apparel</wornGraphicPath>
 			<drawData>
@@ -321,6 +324,7 @@
 				<li>SWWarlordsAccessory_scumtrooper_poncho</li>
 				<li>SWWarlordsAccessory_scumtrooper</li>
 				<li>SaV_wookiee</li>
+				<li>SWCPSpecificApparelItem_DoubleBandolier</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/bandolier_double/Apparel</wornGraphicPath>
 			<drawData>
@@ -412,6 +416,7 @@
 				<li>KotORAccessory_trooper_poncho_knife</li>
 				<li>KotORAccessory_bandolier</li>
 				<li>SaV_wookiee</li>
+				<li>SWCPSpecificApparelItem_ChewbaccaBandolier</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/bandolier_chewbacca/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -503,6 +508,7 @@
 				<li>SWWarlordsAccessory_scumtrooper_poncho</li>
 				<li>SWWarlordsAccessory_scumtrooper</li>
 				<li>SaV_wookiee</li>
+				<li>SWCPSpecificApparelItem_TravelerBag</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/bandolier_traveler/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -608,6 +614,7 @@
 			<li>KotORAccessory_civilian</li>
 			<li>KotORAccessory_backpack</li>
 			<li>KotORAccessory_smallbackpack</li>
+			<li>SWCPSpecificApparelItem_KotORSmallBackpack</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Accessories/backpacks/backpack_small</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -668,6 +675,7 @@
 		<apparel>
 		  <tags>
 			<li>KotORAccessory_scorchbackpack</li>
+			<li>SWCPSpecificApparelItem_KotORScorchBackpack</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Accessories/backpacks/backpack_scorch</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -750,6 +758,7 @@
 			<li>KotORAccessory_trooper</li>
 			<li>KotORAccessory_backpack</li>
 			<li>KotORAccessory_bigbackpack</li>
+			<li>SWCPSpecificApparelItem_KotORBigBackpack</li>
 		  </tags>
 		  <wornGraphicPath>Apparel/Accessories/backpacks/backpack_big</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
@@ -834,6 +843,7 @@
 				<li>SWWarlordsAccessory_scumtrooper_poncho</li>
 				<li>SWWarlordsAccessory_onlyponcho</li>
 				<li>KotORClothing_civilian_hooded</li>
+				<li>SWCPSpecificApparelItem_PlainPoncho</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/poncho/Apparel</wornGraphicPath>
 			<drawData>
@@ -940,6 +950,7 @@
 			<tags Inherit="False">
 				<li>KotORAccessory_any</li>
 				<li>KotORAccessory_camoponcho</li>
+				<li>SWCPSpecificApparelItem_CamoPoncho</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/poncho/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>

@@ -556,29 +556,60 @@
 		<!--techHediffsTags>
 		  <li>guy762_HediffTag_ImplantBasic</li>
 		</techHediffsTags-->
-		<stages> <!-- AN OPTIONAL PATCH REPLACES THIS ENTIRE NODE WITH A <comps> FIELD!!! -->
-		  <li>
-			<statOffsets>
-				<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
-				<!--ConstructionSpeedFactor>0.2</ConstructionSpeedFactor-->
-				<MortarMissRadiusFactor>-0.2</MortarMissRadiusFactor>
-				
-				<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
-				<FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
-				<ConstructSuccessChance>0.2</ConstructSuccessChance>
-				<ABF_Stat_Artificial_SurgerySuccessChance MayRequire="Killathon.ArtificialBeings">0.2</ABF_Stat_Artificial_SurgerySuccessChance>
-				<ABF_Stat_Artificial_TendQuality MayRequire="Killathon.ArtificialBeings">0.2</ABF_Stat_Artificial_TendQuality>
-				<ABF_Stat_Artificial_TendSpeed MayRequire="Killathon.ArtificialBeings">0.2</ABF_Stat_Artificial_TendSpeed>
-				
-				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.2</HackingSpeed>
-				<HuntingStealth>0.2</HuntingStealth>
-				
-				<MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance>
-				<MedicalTendQualityOffset>0.2</MedicalTendQualityOffset>
-				<MedicalTendSpeed>0.2</MedicalTendSpeed>
-			</statOffsets>
-		  </li>
-		</stages>
+		<comps>
+		  <li Class="EBSGFramework.HediffCompProperties_TemporarySkillChange">
+				<skillChanges>
+					<li>
+						<skill>Shooting</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Melee</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Construction</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Mining</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Cooking</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Plants</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Animals</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Crafting</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Artistic</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Medicine</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Social</skill>
+						<skillChange>2</skillChange>
+					</li>
+					<li>
+						<skill>Intellectual</skill>
+						<skillChange>2</skillChange>
+					</li>
+				</skillChanges>
+			</li>
+		</comps>
 	</HediffDef>
 	
 	

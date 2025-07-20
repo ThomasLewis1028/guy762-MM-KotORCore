@@ -56,8 +56,9 @@
 		
 		<li IfModActive="EBSG.Framework">1.6/AdditionalMods/EBSG</li>
 		
-		<li IfModActive="kaitorisenkou.ModularWeapons">1.6/AdditionalMods/ModularWeapons</li>
+		<li IfModActive="kaitorisenkou.ModularWeapons2">1.6/AdditionalMods/ModularWeapons2</li>
 		
 		<li IfModActive="guy762.KotORDroids">1.6/AdditionalMods/_DroidsBase</li>
+		<li IfModActive="guy762.KotORFactions">1.6/AdditionalMods/_FactionsBase</li>
 	</v1.6>
 </loadFolders>

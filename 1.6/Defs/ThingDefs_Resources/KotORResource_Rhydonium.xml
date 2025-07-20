@@ -112,6 +112,11 @@
 			<Flammability>10</Flammability>
 			<DeteriorationRate>2.0</DeteriorationRate>
 		</statBases>
+		
+		<deepCommonality>1</deepCommonality>
+		<deepCountPerPortion>20</deepCountPerPortion>
+		<deepLumpSizeRange>5~8</deepLumpSizeRange>
+		
 		<thingCategories>
 			<li>ResourcesRaw</li>
 			<!-- <li>Drugs</li> -->

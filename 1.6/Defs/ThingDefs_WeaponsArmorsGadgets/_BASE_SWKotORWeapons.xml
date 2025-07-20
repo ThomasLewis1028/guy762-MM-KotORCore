@@ -99,25 +99,26 @@
 		<descriptionHyperlinks>
 			<ThingDef MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</ThingDef>
 		</descriptionHyperlinks>
-		<equippedStatOffsets> <!--these are required for pawn stats to be affected by modifiers added via ModularPartDefs-->
-		  <MoveSpeed>0.000001</MoveSpeed>
-		  <SocialImpact>0.000001</SocialImpact>
-		  <PainShockThreshold>0.000001</PainShockThreshold>
-		  <MentalBreakThreshold>0.000001</MentalBreakThreshold>
-		  <PsychicSensitivity>0.000001</PsychicSensitivity>
-		  <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate>
-		  <PsychicEntropyGain>0.000001</PsychicEntropyGain>
-		  <PsychicEntropyMax>0.000001</PsychicEntropyMax>
-		  <InjuryHealingFactor>0.000001</InjuryHealingFactor>
-		  <MeleeDodgeChance>0.000001</MeleeDodgeChance>
-		  <MeleeHitChance>0.000001</MeleeHitChance>
-		  <IncomingDamageFactor>0.000001</IncomingDamageFactor>
-		  <HuntingStealth>0.000001</HuntingStealth>
-		  <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance>
-		  <PawnTrapSpringChance>0.000001</PawnTrapSpringChance>
-		  <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor>
-		  <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed>
-		</equippedStatOffsets>
+		<!-- <equippedStatOffsets> NO LONGER NECESSARY IN MW2 -->
+		  <!-- <MoveSpeed>0.000001</MoveSpeed> -->
+		  <!-- <SocialImpact>0.000001</SocialImpact> -->
+		  <!-- <PainShockThreshold>0.000001</PainShockThreshold> -->
+		  <!-- <MentalBreakThreshold>0.000001</MentalBreakThreshold> -->
+		  <!-- <PsychicSensitivity>0.000001</PsychicSensitivity> -->
+		  <!-- <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate> -->
+		  <!-- <PsychicEntropyGain>0.000001</PsychicEntropyGain> -->
+		  <!-- <PsychicEntropyMax>0.000001</PsychicEntropyMax> -->
+		  <!-- <InjuryHealingFactor>0.000001</InjuryHealingFactor> -->
+		  <!-- <MeleeDodgeChance>0.000001</MeleeDodgeChance> -->
+		  <!-- <MeleeHitChance>0.000001</MeleeHitChance> -->
+		  <!-- <IncomingDamageFactor>0.000001</IncomingDamageFactor> -->
+		  <!-- <HuntingStealth>0.000001</HuntingStealth> -->
+		  <!-- <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance> -->
+		  <!-- <PawnTrapSpringChance>0.000001</PawnTrapSpringChance> -->
+		  <!-- <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor> -->
+		  <!-- <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed> -->
+		<!-- </equippedStatOffsets> -->
+		
 	  </ThingDef>
 	  
 	  
@@ -137,25 +138,26 @@
 			<ThingDef MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</ThingDef>
 		</descriptionHyperlinks>
 		
-		<equippedStatOffsets> <!--these are required for pawn stats to be affected by modifiers added via ModularPartDefs-->
-		  <MoveSpeed>0.000001</MoveSpeed>
-		  <SocialImpact>0.000001</SocialImpact>
-		  <PainShockThreshold>0.000001</PainShockThreshold>
-		  <MentalBreakThreshold>0.000001</MentalBreakThreshold>
-		  <PsychicSensitivity>0.000001</PsychicSensitivity>
-		  <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate>
-		  <PsychicEntropyGain>0.000001</PsychicEntropyGain>
-		  <PsychicEntropyMax>0.000001</PsychicEntropyMax>
-		  <InjuryHealingFactor>0.000001</InjuryHealingFactor>
-		  <MeleeDodgeChance>0.000001</MeleeDodgeChance>
-		  <MeleeHitChance>0.000001</MeleeHitChance>
-		  <IncomingDamageFactor>0.000001</IncomingDamageFactor>
-		  <HuntingStealth>0.000001</HuntingStealth>
-		  <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance>
-		  <PawnTrapSpringChance>0.000001</PawnTrapSpringChance>
-		  <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor>
-		  <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed>
-		</equippedStatOffsets>
+		<!-- <equippedStatOffsets> NO LONGER NECESSARY IN MW2 -->
+		  <!-- <MoveSpeed>0.000001</MoveSpeed> -->
+		  <!-- <SocialImpact>0.000001</SocialImpact> -->
+		  <!-- <PainShockThreshold>0.000001</PainShockThreshold> -->
+		  <!-- <MentalBreakThreshold>0.000001</MentalBreakThreshold> -->
+		  <!-- <PsychicSensitivity>0.000001</PsychicSensitivity> -->
+		  <!-- <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate> -->
+		  <!-- <PsychicEntropyGain>0.000001</PsychicEntropyGain> -->
+		  <!-- <PsychicEntropyMax>0.000001</PsychicEntropyMax> -->
+		  <!-- <InjuryHealingFactor>0.000001</InjuryHealingFactor> -->
+		  <!-- <MeleeDodgeChance>0.000001</MeleeDodgeChance> -->
+		  <!-- <MeleeHitChance>0.000001</MeleeHitChance> -->
+		  <!-- <IncomingDamageFactor>0.000001</IncomingDamageFactor> -->
+		  <!-- <HuntingStealth>0.000001</HuntingStealth> -->
+		  <!-- <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance> -->
+		  <!-- <PawnTrapSpringChance>0.000001</PawnTrapSpringChance> -->
+		  <!-- <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor> -->
+		  <!-- <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed> -->
+		<!-- </equippedStatOffsets> -->
+		
 	  </ThingDef>
 	  
 	  
@@ -225,25 +227,26 @@
 			<ThingDef MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</ThingDef>
 		</descriptionHyperlinks>
 		
-		<equippedStatOffsets> <!--these are required for pawn stats to be affected by modifiers added via ModularPartDefs-->
-		  <MoveSpeed>0.000001</MoveSpeed>
-		  <SocialImpact>0.000001</SocialImpact>
-		  <PainShockThreshold>0.000001</PainShockThreshold>
-		  <MentalBreakThreshold>0.000001</MentalBreakThreshold>
-		  <PsychicSensitivity>0.000001</PsychicSensitivity>
-		  <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate>
-		  <PsychicEntropyGain>0.000001</PsychicEntropyGain>
-		  <PsychicEntropyMax>0.000001</PsychicEntropyMax>
-		  <InjuryHealingFactor>0.000001</InjuryHealingFactor>
-		  <MeleeDodgeChance>0.000001</MeleeDodgeChance>
-		  <MeleeHitChance>0.000001</MeleeHitChance>
-		  <IncomingDamageFactor>0.000001</IncomingDamageFactor>
-		  <HuntingStealth>0.000001</HuntingStealth>
-		  <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance>
-		  <PawnTrapSpringChance>0.000001</PawnTrapSpringChance>
-		  <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor>
-		  <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed>
-		</equippedStatOffsets>
+		<!-- <equippedStatOffsets> NO LONGER NECESSARY IN MW2 -->
+		  <!-- <MoveSpeed>0.000001</MoveSpeed> -->
+		  <!-- <SocialImpact>0.000001</SocialImpact> -->
+		  <!-- <PainShockThreshold>0.000001</PainShockThreshold> -->
+		  <!-- <MentalBreakThreshold>0.000001</MentalBreakThreshold> -->
+		  <!-- <PsychicSensitivity>0.000001</PsychicSensitivity> -->
+		  <!-- <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate> -->
+		  <!-- <PsychicEntropyGain>0.000001</PsychicEntropyGain> -->
+		  <!-- <PsychicEntropyMax>0.000001</PsychicEntropyMax> -->
+		  <!-- <InjuryHealingFactor>0.000001</InjuryHealingFactor> -->
+		  <!-- <MeleeDodgeChance>0.000001</MeleeDodgeChance> -->
+		  <!-- <MeleeHitChance>0.000001</MeleeHitChance> -->
+		  <!-- <IncomingDamageFactor>0.000001</IncomingDamageFactor> -->
+		  <!-- <HuntingStealth>0.000001</HuntingStealth> -->
+		  <!-- <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance> -->
+		  <!-- <PawnTrapSpringChance>0.000001</PawnTrapSpringChance> -->
+		  <!-- <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor> -->
+		  <!-- <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed> -->
+		<!-- </equippedStatOffsets> -->
+		
 	  </ThingDef>
 	  
 	  
@@ -356,25 +359,26 @@
 		<descriptionHyperlinks>
 			<ThingDef>guy762_KotORWorkbench</ThingDef>
 		</descriptionHyperlinks>
-		<equippedStatOffsets> <!--these are required for pawn stats to be affected by modifiers added via ModularPartDefs-->
-		  <MoveSpeed>0.000001</MoveSpeed>
-		  <SocialImpact>0.000001</SocialImpact>
-		  <PainShockThreshold>0.000001</PainShockThreshold>
-		  <MentalBreakThreshold>0.000001</MentalBreakThreshold>
-		  <PsychicSensitivity>0.000001</PsychicSensitivity>
-		  <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate>
-		  <PsychicEntropyGain>0.000001</PsychicEntropyGain>
-		  <PsychicEntropyMax>0.000001</PsychicEntropyMax>
-		  <InjuryHealingFactor>0.000001</InjuryHealingFactor>
-		  <MeleeDodgeChance>0.000001</MeleeDodgeChance>
-		  <MeleeHitChance>0.000001</MeleeHitChance>
-		  <IncomingDamageFactor>0.000001</IncomingDamageFactor>
-		  <HuntingStealth>0.000001</HuntingStealth>
-		  <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance>
-		  <PawnTrapSpringChance>0.000001</PawnTrapSpringChance>
-		  <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor>
-		  <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed>
-		</equippedStatOffsets>
+		<!-- <equippedStatOffsets> NO LONGER NECESSARY IN MW2 -->
+		  <!-- <MoveSpeed>0.000001</MoveSpeed> -->
+		  <!-- <SocialImpact>0.000001</SocialImpact> -->
+		  <!-- <PainShockThreshold>0.000001</PainShockThreshold> -->
+		  <!-- <MentalBreakThreshold>0.000001</MentalBreakThreshold> -->
+		  <!-- <PsychicSensitivity>0.000001</PsychicSensitivity> -->
+		  <!-- <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate> -->
+		  <!-- <PsychicEntropyGain>0.000001</PsychicEntropyGain> -->
+		  <!-- <PsychicEntropyMax>0.000001</PsychicEntropyMax> -->
+		  <!-- <InjuryHealingFactor>0.000001</InjuryHealingFactor> -->
+		  <!-- <MeleeDodgeChance>0.000001</MeleeDodgeChance> -->
+		  <!-- <MeleeHitChance>0.000001</MeleeHitChance> -->
+		  <!-- <IncomingDamageFactor>0.000001</IncomingDamageFactor> -->
+		  <!-- <HuntingStealth>0.000001</HuntingStealth> -->
+		  <!-- <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance> -->
+		  <!-- <PawnTrapSpringChance>0.000001</PawnTrapSpringChance> -->
+		  <!-- <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor> -->
+		  <!-- <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed> -->
+		<!-- </equippedStatOffsets> -->
+		
 	  </ThingDef>
 	  
 	  
@@ -397,25 +401,26 @@
 			<ThingDef MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</ThingDef>
 		</descriptionHyperlinks>
 		
-		<equippedStatOffsets> <!--these are required for pawn stats to be affected by modifiers added via ModularPartDefs-->
-		  <MoveSpeed>0.000001</MoveSpeed>
-		  <SocialImpact>0.000001</SocialImpact>
-		  <PainShockThreshold>0.000001</PainShockThreshold>
-		  <MentalBreakThreshold>0.000001</MentalBreakThreshold>
-		  <PsychicSensitivity>0.000001</PsychicSensitivity>
-		  <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate>
-		  <PsychicEntropyGain>0.000001</PsychicEntropyGain>
-		  <PsychicEntropyMax>0.000001</PsychicEntropyMax>
-		  <InjuryHealingFactor>0.000001</InjuryHealingFactor>
-		  <MeleeDodgeChance>0.000001</MeleeDodgeChance>
-		  <MeleeHitChance>0.000001</MeleeHitChance>
-		  <IncomingDamageFactor>0.000001</IncomingDamageFactor>
-		  <HuntingStealth>0.000001</HuntingStealth>
-		  <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance>
-		  <PawnTrapSpringChance>0.000001</PawnTrapSpringChance>
-		  <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor>
-		  <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed>
-		</equippedStatOffsets>
+		<!-- <equippedStatOffsets> NO LONGER NECESSARY IN MW2 -->
+		  <!-- <MoveSpeed>0.000001</MoveSpeed> -->
+		  <!-- <SocialImpact>0.000001</SocialImpact> -->
+		  <!-- <PainShockThreshold>0.000001</PainShockThreshold> -->
+		  <!-- <MentalBreakThreshold>0.000001</MentalBreakThreshold> -->
+		  <!-- <PsychicSensitivity>0.000001</PsychicSensitivity> -->
+		  <!-- <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate> -->
+		  <!-- <PsychicEntropyGain>0.000001</PsychicEntropyGain> -->
+		  <!-- <PsychicEntropyMax>0.000001</PsychicEntropyMax> -->
+		  <!-- <InjuryHealingFactor>0.000001</InjuryHealingFactor> -->
+		  <!-- <MeleeDodgeChance>0.000001</MeleeDodgeChance> -->
+		  <!-- <MeleeHitChance>0.000001</MeleeHitChance> -->
+		  <!-- <IncomingDamageFactor>0.000001</IncomingDamageFactor> -->
+		  <!-- <HuntingStealth>0.000001</HuntingStealth> -->
+		  <!-- <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance> -->
+		  <!-- <PawnTrapSpringChance>0.000001</PawnTrapSpringChance> -->
+		  <!-- <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor> -->
+		  <!-- <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed> -->
+		<!-- </equippedStatOffsets> -->
+		
 	  </ThingDef>
 	  
 	  
@@ -448,25 +453,26 @@
 			<ThingDef MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</ThingDef>
 		</descriptionHyperlinks>
 		
-		<equippedStatOffsets> <!--these are required for pawn stats to be affected by modifiers added via ModularPartDefs-->
-		  <MoveSpeed>0.000001</MoveSpeed>
-		  <SocialImpact>0.000001</SocialImpact>
-		  <PainShockThreshold>0.000001</PainShockThreshold>
-		  <MentalBreakThreshold>0.000001</MentalBreakThreshold>
-		  <PsychicSensitivity>0.000001</PsychicSensitivity>
-		  <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate>
-		  <PsychicEntropyGain>0.000001</PsychicEntropyGain>
-		  <PsychicEntropyMax>0.000001</PsychicEntropyMax>
-		  <InjuryHealingFactor>0.000001</InjuryHealingFactor>
-		  <MeleeDodgeChance>0.000001</MeleeDodgeChance>
-		  <MeleeHitChance>0.000001</MeleeHitChance>
-		  <IncomingDamageFactor>0.000001</IncomingDamageFactor>
-		  <HuntingStealth>0.000001</HuntingStealth>
-		  <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance>
-		  <PawnTrapSpringChance>0.000001</PawnTrapSpringChance>
-		  <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor>
-		  <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed>
-		</equippedStatOffsets>
+		<!-- <equippedStatOffsets> NO LONGER NECESSARY IN MW2 -->
+		  <!-- <MoveSpeed>0.000001</MoveSpeed> -->
+		  <!-- <SocialImpact>0.000001</SocialImpact> -->
+		  <!-- <PainShockThreshold>0.000001</PainShockThreshold> -->
+		  <!-- <MentalBreakThreshold>0.000001</MentalBreakThreshold> -->
+		  <!-- <PsychicSensitivity>0.000001</PsychicSensitivity> -->
+		  <!-- <PsychicEntropyRecoveryRate>0.000001</PsychicEntropyRecoveryRate> -->
+		  <!-- <PsychicEntropyGain>0.000001</PsychicEntropyGain> -->
+		  <!-- <PsychicEntropyMax>0.000001</PsychicEntropyMax> -->
+		  <!-- <InjuryHealingFactor>0.000001</InjuryHealingFactor> -->
+		  <!-- <MeleeDodgeChance>0.000001</MeleeDodgeChance> -->
+		  <!-- <MeleeHitChance>0.000001</MeleeHitChance> -->
+		  <!-- <IncomingDamageFactor>0.000001</IncomingDamageFactor> -->
+		  <!-- <HuntingStealth>0.000001</HuntingStealth> -->
+		  <!-- <ToxicEnvironmentResistance>0.000001</ToxicEnvironmentResistance> -->
+		  <!-- <PawnTrapSpringChance>0.000001</PawnTrapSpringChance> -->
+		  <!-- <MortarMissRadiusFactor>0.000001</MortarMissRadiusFactor> -->
+		  <!-- <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.000001</HackingSpeed> -->
+		<!-- </equippedStatOffsets> -->
+		
 	  </ThingDef>
 	  
 	  

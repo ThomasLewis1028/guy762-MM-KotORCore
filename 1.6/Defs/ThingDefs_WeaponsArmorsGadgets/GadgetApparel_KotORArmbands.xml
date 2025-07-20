@@ -41,6 +41,7 @@
 		<li>KotORHeroAccessories_visas</li>
 		<li>KotORHeroAccessories_sion</li>
 		<li>KotORHeroAccessories_bastila</li>
+		<li>SWCPSpecificGadgetItem_JediArmband</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -86,6 +87,7 @@
       </layers>
 	  <tags>
 		<li>KotOREquipment_moncal</li>
+		<li>SWCPSpecificGadgetItem_MonCalamariArmband</li>
 	  </tags>
     </apparel>
 	<tradeTags>

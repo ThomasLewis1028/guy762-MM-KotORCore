@@ -141,7 +141,7 @@
 			<makeImmuneTo>
 				<li>ToxicBuildup</li>
 				<li>guy762_Poison_saber</li>
-				<li MayRequire="Killathon.ArtificialBeings.SynCore">ABF_Hediff_Synstruct_Toxicated</li>
+				<!-- <li MayRequire="Killathon.ArtificialBeings.SynCore">ABF_Hediff_Synstruct_Toxicated</li> -->
 				
 				<li MayRequire="guy762.Lee.KotORPotF">SWPotF_hediff_ForcePacify</li>
 				
@@ -548,29 +548,60 @@
 		<!--techHediffsTags>
 		  <li>guy762_HediffTag_ImplantBasic</li>
 		</techHediffsTags-->
-		<stages> <!-- AN OPTIONAL PATCH REPLACES THIS ENTIRE NODE WITH A <comps> FIELD!!! -->
-		  <li>
-			<statOffsets>
-				<PawnTrapSpringChance>-0.6</PawnTrapSpringChance>
-				<!--ConstructionSpeedFactor>0.6</ConstructionSpeedFactor-->
-				<MortarMissRadiusFactor>-0.6</MortarMissRadiusFactor>
-				
-				<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.6</MechRepairSpeed>
-				<FixBrokenDownBuildingSuccessChance>0.6</FixBrokenDownBuildingSuccessChance>
-				<ConstructSuccessChance>0.6</ConstructSuccessChance>
-				<ABF_Stat_Artificial_SurgerySuccessChance MayRequire="Killathon.ArtificialBeings">0.6</ABF_Stat_Artificial_SurgerySuccessChance>
-				<ABF_Stat_Artificial_TendQuality MayRequire="Killathon.ArtificialBeings">0.6</ABF_Stat_Artificial_TendQuality>
-				<ABF_Stat_Artificial_TendSpeed MayRequire="Killathon.ArtificialBeings">0.6</ABF_Stat_Artificial_TendSpeed>
-				
-				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.6</HackingSpeed>
-				<HuntingStealth>0.6</HuntingStealth>
-				
-				<MedicalSurgerySuccessChance>0.6</MedicalSurgerySuccessChance>
-				<MedicalTendQualityOffset>0.6</MedicalTendQualityOffset>
-				<MedicalTendSpeed>0.6</MedicalTendSpeed>
-			</statOffsets>
-		  </li>
-		</stages>
+		<comps>
+		  <li Class="EBSGFramework.HediffCompProperties_TemporarySkillChange">
+				<skillChanges>
+					<li>
+						<skill>Shooting</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Melee</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Construction</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Mining</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Cooking</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Plants</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Animals</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Crafting</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Artistic</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Medicine</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Social</skill>
+						<skillChange>6</skillChange>
+					</li>
+					<li>
+						<skill>Intellectual</skill>
+						<skillChange>6</skillChange>
+					</li>
+				</skillChanges>
+			</li>
+		</comps>
 	</HediffDef>
 
 	

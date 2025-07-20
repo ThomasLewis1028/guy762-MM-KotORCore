@@ -45,6 +45,9 @@
       <layers>
         <li>Overhead</li>
       </layers>
+	  <tags>
+		<li>SWCPSpecificApparelItem_SovereignTuskenMask</li>
+      </tags>
     </apparel>
 
 	<tradeTags>
@@ -128,6 +131,9 @@
 		<layers>
 			<li>OnSkin</li>
 		</layers>
+		<tags>
+			<li>SWCPSpecificApparelItem_SovereignTuskenBodyWraps</li>
+		</tags>
 <!--			<tags>
 			<li>IndustrialAdvanced</li>
 		</tags>

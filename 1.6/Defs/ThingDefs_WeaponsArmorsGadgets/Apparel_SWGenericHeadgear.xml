@@ -48,6 +48,7 @@
 			<li>SE_apparel_engi</li>
 			<li>KotORRoyaltyTag_ORprivI</li>
 			<li>KotORRoyaltyTag_ORprivII</li>
+			<li>SWCPSpecificApparelItem_KotORSithUniformHat</li>
 		  </tags>
 		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
 		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -61,6 +62,78 @@
 				<li>
 					<weight>10</weight>
 					<only>(170,170,190)</only> <!-- sith grey -->
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<ThingDef ParentName="guy762_HatCraftableBase">
+		<defName>guy762_UniformCap_rebel</defName>
+		<label>uniform cap</label>
+		<description>A formal cap for military personnel.</description>
+		<graphicData>
+		  <texPath>Apparel/GenericMilitaryFatigues/hat</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MarketValue>10</MarketValue>
+		  <MaxHitPoints>80</MaxHitPoints>
+		  <Mass>0.05</Mass>
+		  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.01</ArmorRating_Heat>
+		  <EquipDelay>0.1</EquipDelay>
+		  
+		  
+		  <WorkToMake>1000</WorkToMake>
+		</statBases>
+		<!-- <equippedStatOffsets> -->
+		  <!-- <SocialImpact>0.1</SocialImpact> -->
+		<!-- </equippedStatOffsets> -->
+		
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Cloth>20</Cloth>
+		</costList>
+		
+		<apparel>
+		  <wornGraphicPath>Apparel/GenericMilitaryFatigues/hat</wornGraphicPath>
+		  <bodyPartGroups>
+			<li>UpperHead</li>
+		  </bodyPartGroups>
+		  <layers>
+			<li>Overhead</li>
+		  </layers>
+		  <tags>
+			<li>NewRepublic_engineer</li>
+			<li>NewRepublic_RebelAgent_hats</li>
+			<li>SWCPSpecificApparelItem_GenericUniformHat</li>
+		  </tags>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(175,150,120)</only>       <!-- bespin beige -->
 				</li>
 			</options>
 		</colorGenerator>
@@ -113,6 +186,7 @@
 			<li>NewRepublic_rebeltrooper</li>
 			<li>NewRepublic_RebelAgent_hats</li>
 			<li>NewRepublic_sharpshooterhat</li>
+			<li>SWCPSpecificApparelItem_FlakHat</li>
 		  </tags>
 		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
 		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -182,6 +256,7 @@
 		  <tags>
 			<li>NewRepublic_tankpilot</li>
 			<li>NewRepublic_RebelAgent_hats</li>
+			<li>SWCPSpecificApparelItem_GogglesFlakHat</li>
 		  </tags>
 		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
 		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -274,6 +349,7 @@
 		  <tags>
 			<li>NewRepublic_engineer</li>
 			<li>NewRepublic_RebelAgent_hats</li>
+			<li>SWCPSpecificApparelItem_RebelEngineerHat</li>
 		  </tags>
 		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
 		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -341,6 +417,7 @@
 		  <tags>
 			<li>PReb_apparel_cop</li>
 			<li>PReb_apparel_maskedhats</li>
+			<li>SWCPSpecificApparelItem_KotOROnderonRebelHat</li>
 		  </tags>
 		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
 		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -415,6 +492,7 @@
 	  <tags>
 		<li>SaV_apparel_huttgoon</li>
 		<li>KotORHeadband_bandana</li>
+		<li>SWCPSpecificApparelItem_Bandana</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -514,6 +592,7 @@
 		<apparel Inherit="False">
 			<tags>
 				<li>RemnantEmpire_impworker</li>
+				<li>SWCPSpecificApparelItem_ImperialWorkerHelmet</li>
 			</tags>
 			<wornGraphicPath>Apparel/ImperialWorker/helmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>

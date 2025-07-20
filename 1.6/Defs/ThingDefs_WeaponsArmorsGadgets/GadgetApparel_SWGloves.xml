@@ -33,6 +33,7 @@
 	  <tags>
 		<li>KotORGloves_basic</li>
 		<li>KotOREquipment_basic</li>
+		<li>SWCPSpecificGadgetItem_InsulatedGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -68,6 +69,7 @@
 		<li>KotORGloves_combat</li>
 		<li>KotOREquipment_adv</li>
 		<li>KotOREquipment_officer</li>
+		<li>SWCPSpecificGadgetItem_KarakanGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -106,6 +108,7 @@
 		<li>KotOREquipment_adv</li>
 		<li>KotORHeroAccessories_canderous</li>
 		<li>KotORHeroAccessories_canderousMerc</li>
+		<li>SWCPSpecificGadgetItem_GamorreanGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -138,6 +141,7 @@
 		<li>KotORGloves_combat</li>
 		<li>KotOREquipment_adv</li>
 		<li>KotORHeroAccessories_canderousMerc</li>
+		<li>SWCPSpecificGadgetItem_AccuracyGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -171,6 +175,7 @@
 		<li>KotOREquipment_rare</li>
 		<li>SaV_apparel_nagai</li>
 		<li>KotORHeroAccessories_juhani</li>
+		<li>SWCPSpecificGadgetItem_NagaiGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -202,6 +207,7 @@
 		<li>KotORGloves_combat</li>
 		<li>KotOREquipment_adv</li>
 		<li>KotOREquipment_sith</li>
+		<li>SWCPSpecificGadgetItem_EriaduSTRGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -247,6 +253,7 @@
 		<li>KotORHeroAccessories_visas</li>
 		<li>KotORHeroAccessories_sion</li>
 		<li>KotORHeroAccessories_yuthura</li>
+		<li>SWCPSpecificGadgetItem_SithSTRGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -284,6 +291,7 @@
 		<li>KotOREquipment_jedi</li>
 		<li>KotORHeroAccessories_exile</li>
 		<li>KotORHeroAccessories_bastila</li>
+		<li>SWCPSpecificGadgetItem_JalSheyGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -315,6 +323,7 @@
 		<li>KotORHeroAccessories_exile</li>
 		<li>KotORHeroAccessories_bastila</li>
 		<li>KotORHeroAccessories_juhani</li>
+		<li>SWCPSpecificGadgetItem_ZeisonShaGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -349,6 +358,7 @@
 		<li>KotORUtility_medic</li>
 		<li>KotORUtility_StabilizerGauntlets</li>
 		<li>KotORHeroAccessories_exile</li>
+		<li>SWCPSpecificGadgetItem_MedicGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -382,6 +392,7 @@
 		<li>KotOREquipment_tech</li>
 		<li>KotORHeroAccessories_visas</li>
 		<li>KotORHeroAccessories_mission</li>
+		<li>SWCPSpecificGadgetItem_InfiltratorGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -413,6 +424,7 @@
 	  <tags>
 		<li>KotORGloves_tech</li>
 		<li>KotOREquipment_adv</li>
+		<li>SWCPSpecificGadgetItem_DetonatorGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -453,6 +465,7 @@
 		<li>KotOREquipment_tech</li>
 		<li>KotORUtility_engi</li>
 		<li>KotORUtility_engi_novisor</li>
+		<li>SWCPSpecificGadgetItem_EngineerGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -485,6 +498,7 @@
     <apparel>
 	  <tags>
 		<li>KotORGloves_rare</li>
+		<li>SWCPSpecificGadgetItem_ProgrammerGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -519,6 +533,7 @@
 		<li>KotORHeroAccessories_juhani</li>
 		<li>KotORHeroAccessories_zaalbar</li>
 		<li>KotORHeroAccessories_hanharr</li>
+		<li>SWCPSpecificGadgetItem_DominatorSTRGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -556,6 +571,7 @@
 		<li>KotORGloves_rare</li>
 		<li>KotORUtility_engi</li>
 		<li>KotORUtility_engi_novisor</li>
+		<li>SWCPSpecificGadgetItem_AdvEngineerGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -591,6 +607,7 @@
 		<li>KotORGloves_bothan</li>
 		<li>KotORHeroAccessories_canderous</li>
 		<li>KotORHeroAccessories_canderousMerc</li>
+		<li>SWCPSpecificGadgetItem_BothanGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>

@@ -42,6 +42,7 @@
       </bodyPartGroups>
 	  <tags>
 		<li>KotORStealthBelt_basic</li>
+		<li>SWCPSpecificGadgetItem_StealthBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -99,6 +100,7 @@
 	  <tags>
 		<li>KotORStealthBelt_basic</li>
 		<li>OR_equipment_saboteur</li>
+		<li>SWCPSpecificGadgetItem_60SecStealthBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -160,6 +162,7 @@
 		<li>KotORHeroAccessories_visas</li>
 		<li>KotORHeroAccessories_juhani</li>
 		<li>KotORHeroAccessories_mission</li>
+		<li>SWCPSpecificGadgetItem_3MinStealthBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>

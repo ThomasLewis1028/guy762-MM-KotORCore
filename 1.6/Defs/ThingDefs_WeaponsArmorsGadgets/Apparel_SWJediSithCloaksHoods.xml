@@ -54,6 +54,7 @@
 			<li>KotORClothing_simplecloak</li>
 			<li>OR_jedi</li>
 			<li>OR_jedicloak_light</li>
+			<li>SWCPSpecificApparelItem_SimpleCloak</li>
 		</tags>
 		<wornGraphicPath>Apparel/Jedi/cloak_1/Apparel</wornGraphicPath>
     </apparel>
@@ -141,6 +142,7 @@
 		<li>OR_jedi</li>
 		<li>OR_jedicloak_light</li>
 		<li>KotORClothing_civilian_hooded</li>
+		<li>SWCPSpecificApparelItem_SimpleHood</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -225,6 +227,7 @@
       </layers>
 	  <tags>
 		<li>SE_sithapprentice</li>
+		<li>SWCPSpecificApparelItem_MaskedHood</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>

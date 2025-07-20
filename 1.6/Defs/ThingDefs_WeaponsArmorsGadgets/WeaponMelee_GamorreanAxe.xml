@@ -102,6 +102,7 @@
 		</tools>
 		<weaponTags Inherit="False">
 			<li>HC_gamorreanaxe</li>
+			<li>SWMelee_GamorreanAxe</li>
 		</weaponTags>
 		<tradeTags>
 			<li>guy762TT_KotORWeapon_exotic</li>

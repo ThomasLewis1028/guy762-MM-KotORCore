@@ -31,6 +31,7 @@
 	  <tags>
 		<li>KotORBelt_utility</li>
 		<li>KotOREquipment_basic</li>
+		<li>SWCPSpecificGadgetItem_SafetyBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -80,6 +81,7 @@
 	  <tags>
 		<li>KotORBelt_utility</li>
 		<li>KotOREquipment_basic</li>
+		<li>SWCPSpecificGadgetItem_PowerBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -155,6 +157,7 @@
 			<li>KotOREquipment_czerkatech</li>
 			<li>KotORUtility_engi</li>
 			<li>KotORUtility_engi_novisor</li>
+			<li>SWCPSpecificGadgetItem_CzerkaUtilityBelt</li>
 		  </tags>
 		</apparel>
 		<tradeTags>
@@ -223,6 +226,7 @@
 		<li>KotORBelt_attribute</li>
 		<li>KotOREquipment_basic</li>
 		<li>KotOREquipment_sith</li>
+		<li>SWCPSpecificGadgetItem_STRBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -274,6 +278,7 @@
 		<li>KotOREquipment_basic</li>
 		<li>KotOREquipment_sith</li>
 		<li>KotOREquipment_officer</li>
+		<li>SWCPSpecificGadgetItem_DEXBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -346,6 +351,7 @@
 		<li>KotORBelt_capacity</li>
 		<li>KotOREquipment_basic</li>
 		<li>KotOREquipment_sith</li>
+		<li>SWCPSpecificGadgetItem_DEXCapacityBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -432,6 +438,7 @@
 		<li>KotOREquipment_basic</li>
 		<li>KotOREquipment_officer</li>
 		<li>KotORHeroAccessories_canderousMerc</li>
+		<li>SWCPSpecificGadgetItem_CONCapacityBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -545,6 +552,7 @@
 		<li>KotORBelt_attribute</li>
 		<li>KotOREquipment_adv</li>
 		<li>KotOREquipment_sith</li>
+		<li>SWCPSpecificGadgetItem_STRCapacityBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -615,6 +623,7 @@
 		<li>KotORHeroAccessories_visas</li>
 		<li>KotORHeroAccessories_handmaiden</li>
 		<li>KotORHeroAccessories_juhani</li>
+		<li>SWCPSpecificGadgetItem_AdvDEXCapacityBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -681,6 +690,7 @@
 		<li>KotOREquipment_jedi</li>
 		<li>KotOREquipment_officer</li>
 		<li>KotORHeroAccessories_bastila</li>
+		<li>SWCPSpecificGadgetItem_NerveAmplifierBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -780,6 +790,7 @@
 		<li>KotORHeroAccessories_juhani</li>
 		<li>KotORHeroAccessories_zaalbar</li>
 		<li>KotORHeroAccessories_hanharr</li>
+		<li>SWCPSpecificGadgetItem_AdvSTRBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -825,6 +836,7 @@
 		<li>KotORHeroAccessories_bastila</li>
 		<li>KotORHeroAccessories_juhani</li>
 		<li>KotORHeroAccessories_zaalbar</li>
+		<li>SWCPSpecificGadgetItem_AdvCONCapacityBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -924,6 +936,7 @@
 	  <tags>
 		<li>KotORBelt_force</li>
 		<li>KotOREquipment_jedi</li>
+		<li>SWCPSpecificGadgetItem_JalSheyBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -960,6 +973,7 @@
 		<li>KotORHeroAccessories_visas</li>
 		<li>KotORHeroAccessories_exile</li>
 		<li>KotORHeroAccessories_bastila</li>
+		<li>SWCPSpecificGadgetItem_AdvJalSheyBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>

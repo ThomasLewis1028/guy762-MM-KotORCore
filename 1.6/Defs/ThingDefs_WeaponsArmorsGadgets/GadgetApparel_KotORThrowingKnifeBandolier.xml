@@ -36,6 +36,7 @@
 				<li>KotORAccessory_knifebandolier</li>
 				<li>KotORAccessory_trooper_poncho_knife</li>
 				<li>SaV_apparel_nagai</li>
+				<li>SWCPSpecificApparelItem_ThrowingKnifeBandolier</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/bandolier_knife/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>

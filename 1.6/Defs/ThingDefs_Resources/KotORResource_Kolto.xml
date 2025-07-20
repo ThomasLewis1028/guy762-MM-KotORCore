@@ -183,8 +183,10 @@
 	  
 	  <li Class="KoltoTank.CompProperties_KoltoTank">
 		<innerDrawOffset>(0, 0, -0.25)</innerDrawOffset>
-		<waterDrawCenter>(0, 0.25, 0.0)</waterDrawCenter>
+		<waterDrawCenter>(0, 0.021, 0.0)</waterDrawCenter>
 		<waterDrawSize>(1.9, 1.4)</waterDrawSize>
+		<waterfillspeed>0.005</waterfillspeed>
+		
 		<bodySizeMin>0</bodySizeMin>
 		<bodySizeMax>2</bodySizeMax>
 		<hediffOnEntry>KoltoTank_Coma</hediffOnEntry>
