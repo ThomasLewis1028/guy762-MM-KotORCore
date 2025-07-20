@@ -31,49 +31,98 @@
 		<steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
 	  </li>
   </modDependencies>
-  
-  <loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
-		<li>Ludeon.RimWorld.Ideology</li>
-		<li>Ludeon.RimWorld.Biotech</li>
-		<li>Ludeon.RimWorld.Anomaly</li>
-		<li>Ludeon.RimWorld.Odyssey</li>
-		
-		<li>brrainz.harmony</li>
-		<li>erdelf.HumanoidAlienRaces</li>
-		
-		<li>antaioz.modmedicinepatch</li>
-		<li>imranfish.xmlextensions</li>
-		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		
-		<li>VanillaExpanded.VPsycastsE</li>
-		<li>jecrell.jecstools</li>
-		
-		<li>Roolo.DualWield</li>
-		<li>EBSG.Framework</li>
-		<li>smartkar.athenaframework</li>
-		<li>Lee.Athena.PostFix</li>
-		<li>kaitorisenkou.ModularWeapons</li>
-		<li>kaitorisenkou.ModularWeapons2</li>
-		
-		<li>Killathon.ArtificialBeings</li>
-		<li>Killathon.ArtificialBeings.SynCore</li>
-		
-		<li>SmashPhil.VehicleFramework</li>
-		<li>ShunTheWitch.CVNmechanoidwarfarecore</li>
-		
-		<li>Dubwise.DubsBadHygiene</li>
-		
-		<li>DimonSever000.FactionLanguages</li>
-		
-		<li>Ogam.MedievalOverhaul.ArcaneArchaeologists</li>
-		<li>jecrell.StarWarsTheForce</li>
-		
-		<li>kentington.saveourship2</li>
-		<li>sindre0830.rimnauts2</li>
-		<li>guy762.StarWarsXenotypes</li>
-	</loadAfter>
+	
+	<loadAfterByVersion>
+		<v1.5>
+			<li>Ludeon.RimWorld</li>
+			<li>Ludeon.RimWorld.Royalty</li>
+			<li>Ludeon.RimWorld.Ideology</li>
+			<li>Ludeon.RimWorld.Biotech</li>
+			<li>Ludeon.RimWorld.Anomaly</li>
+			<li>Ludeon.RimWorld.Odyssey</li>
+			
+			<li>brrainz.harmony</li>
+			<li>erdelf.HumanoidAlienRaces</li>
+			
+			<li>antaioz.modmedicinepatch</li>
+			<li>imranfish.xmlextensions</li>
+			<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+			
+			<li>VanillaExpanded.VPsycastsE</li>
+			<li>jecrell.jecstools</li>
+			
+			<li>Roolo.DualWield</li>
+			<li>EBSG.Framework</li>
+			<li>smartkar.athenaframework</li>
+			<li>Lee.Athena.PostFix</li>
+			<li>kaitorisenkou.ModularWeapons</li>
+			<li>kaitorisenkou.ModularWeapons2</li>
+			
+			<li>Killathon.ArtificialBeings</li>
+			<li>Killathon.ArtificialBeings.SynCore</li>
+			
+			<li>SmashPhil.VehicleFramework</li>
+			<li>ShunTheWitch.CVNmechanoidwarfarecore</li>
+			
+			<li>Dubwise.DubsBadHygiene</li>
+			
+			<li>DimonSever000.FactionLanguages</li>
+			
+			<li>Ogam.MedievalOverhaul.ArcaneArchaeologists</li>
+			<li>jecrell.StarWarsTheForce</li>
+			
+			<li>kentington.saveourship2</li>
+			<li>sindre0830.rimnauts2</li>
+			<li>guy762.StarWarsXenotypes</li>
+		</v1.5>
+		<v1.6>
+			<li>Ludeon.RimWorld</li>
+			<li>Ludeon.RimWorld.Royalty</li>
+			<li>Ludeon.RimWorld.Ideology</li>
+			<li>Ludeon.RimWorld.Biotech</li>
+			<li>Ludeon.RimWorld.Anomaly</li>
+			<li>Ludeon.RimWorld.Odyssey</li>
+			
+			<li>brrainz.harmony</li>
+			<li>erdelf.HumanoidAlienRaces</li>
+			
+			<li>antaioz.modmedicinepatch</li>
+			<li>imranfish.xmlextensions</li>
+			<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+			
+			<li>VanillaExpanded.VPsycastsE</li>
+			<li>jecrell.jecstools</li>
+			
+			<li>Roolo.DualWield</li>
+			<li>EBSG.Framework</li>
+			<li>smartkar.athenaframework</li>
+			<li>Lee.Athena.PostFix</li>
+			<li>kaitorisenkou.ModularWeapons</li>
+			<li>kaitorisenkou.ModularWeapons2</li>
+			
+			<li>Killathon.ArtificialBeings</li>
+			<li>Killathon.ArtificialBeings.SynCore</li>
+			
+			<li>SmashPhil.VehicleFramework</li>
+			<li>ShunTheWitch.CVNmechanoidwarfarecore</li>
+			
+			<li>Dubwise.DubsBadHygiene</li>
+			
+			<li>DimonSever000.FactionLanguages</li>
+			
+			<li>Ogam.MedievalOverhaul.ArcaneArchaeologists</li>
+			<li>jecrell.StarWarsTheForce</li>
+			
+			<li>kentington.saveourship2</li>
+			<li>sindre0830.rimnauts2</li>
+			<li>guy762.StarWarsXenotypes</li>
+			
+			<li>lee.theforce.lightsaber</li>
+		</v1.6>
+	</loadAfterByVersion>
+	
+	
+	
 	<loadBefore>
 		<li>guy762.KotORWeapons</li>
 		<li>guy762.KotORDroids</li>
