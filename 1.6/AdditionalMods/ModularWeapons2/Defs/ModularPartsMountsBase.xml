@@ -120,10 +120,57 @@
 	
 	
 	
+	<!-- MELEE -->
 	
 	
 	
 	
+	<ModularWeapons2.ModularPartsMountDef>
+		<defName>guy762_KotORMount_edge</defName>
+		<label>blade edge</label>
+		<labelShort>edge</labelShort>
+		<allowEmpty>true</allowEmpty>
+	</ModularWeapons2.ModularPartsMountDef>
+	
+	<ModularWeapons2.ModularPartsMountDef>
+		<defName>guy762_KotORMount_ecell</defName>
+		<label>energy cell</label>
+		<labelShort>energy cell</labelShort>
+		<allowEmpty>true</allowEmpty>
+	</ModularWeapons2.ModularPartsMountDef>
+	
+	<ModularWeapons2.ModularPartsMountDef>
+		<defName>guy762_KotORMount_grip</defName>
+		<label>melee grip</label>
+		<labelShort>grip</labelShort>
+		<allowEmpty>true</allowEmpty>
+	</ModularWeapons2.ModularPartsMountDef>
+	
+	<ModularWeapons2.ModularPartsMountDef>
+		<defName>guy762_KotORMount_core</defName>
+		<label>core alloy</label>
+		<labelShort>core</labelShort>
+		<allowEmpty>true</allowEmpty>
+	</ModularWeapons2.ModularPartsMountDef>
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- ARMOR -->
 	
 	
 	

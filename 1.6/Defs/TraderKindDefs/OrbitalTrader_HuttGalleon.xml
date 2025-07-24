@@ -11,7 +11,7 @@
     <permitRequiredForTrading>TradeOrbital</permitRequiredForTrading-->
     <commonality>0.1</commonality>
 	<modExtensions>
-		<li MayRequire="Rick.FCP.Core.Tools" Class="FalloutCurrencies_NonReplacement.CurrencyReplacement">
+		<li Class="SWCP.Currencies.CurrencyReplacement">
 			<currency>Silver</currency>
 		</li>
 	</modExtensions>

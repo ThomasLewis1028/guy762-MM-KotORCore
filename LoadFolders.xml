@@ -38,6 +38,8 @@
 		
 		<li IfModActive="DimonSever000.FactionLanguages">1.6/AdditionalMods/RimLanguages</li>
 		
+		<li IfModActive="Mlie.ShowMeYourHands">1.6/AdditionalMods/ShowMeYourHands</li>
+		
 		<li IfModActive="sindre0830.rimnauts2">1.6/AdditionalMods/RimNauts2</li>
 		
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.6/AdditionalMods/Ideology</li>

@@ -29,10 +29,10 @@
 			<mineableDropChance>1.0</mineableDropChance>
 			<entries>
 			  <!--
-				GRAND TOTAL 0.8029
+				GRAND TOTAL 0.8529
 			  -->
 			  
-			  <!--BLOCK 1 TOTAL 0.70-->
+			  <!--BLOCK 1 TOTAL 0.75-->
 			  <li MayRequire="Ludeon.RimWorld.Biotech">
 				<randomWeight>0.25</randomWeight>
 				<mineableThing>Wastepack</mineableThing>
@@ -42,6 +42,11 @@
 				<randomWeight>0.15</randomWeight>
 				<mineableThing>ChunkSlagSteel</mineableThing>
 				<mineableYield>1</mineableYield>
+			  </li>
+			  <li>
+				<randomWeight>0.05</randomWeight>
+				<mineableThing>KOTOR_Plastoid</mineableThing>
+				<mineableYield>35</mineableYield>
 			  </li>
 			  <li>
 				<randomWeight>0.05</randomWeight>

@@ -4,7 +4,7 @@
 	<FleckDef ParentName="FleckFeedbackBase">
 		<defName>guy762_SWStarfighter_waypoint</defName>
 		<graphicData>
-		  <texPath>UI/waypoint</texPath>
+		  <texPath>UI/ship_movement_waypoint</texPath>
 		</graphicData>
 	  </FleckDef>
   

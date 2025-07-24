@@ -25,6 +25,7 @@
     </graphicData>
 	
 	<size>(1,1)</size>
+	<uiIconScale>0.3</uiIconScale>
 	
     <comps>
       <li Class="CompProperties_Spawner"> <!-- WARNING: patch in AdditionalMods for DBH references this specific <li> !!! -->
